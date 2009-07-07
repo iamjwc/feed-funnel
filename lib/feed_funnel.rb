@@ -16,23 +16,97 @@ class Array
   end
 end
 
+# Use publish date to determine if episodes are close at all.
+
+Feedzirra::Feed.add_common_feed_entry_element(:enclosure, :value => :url)
+Feedzirra::Feed.add_common_feed_entry_element(:enclosure, :value => :length, :as => :enclosure_size)
+
+Feedzirra::Feed.add_common_feed_entry_element(:"media:content", :value => :url, :as => :media_url)
+Feedzirra::Feed.add_common_feed_entry_element(:"media:content", :value => :fileSize, :as => :media_size)
+
+module Feedzirra
+  module Parser
+    class MediaGroupEntry
+      include SAXMachine
+      include FeedUtilities
+
+      elements :"media:content", :value => :url, :as => :media_urls
+      elements :"media:content", :value => :fileSize, :as => :media_sizes
+
+      def self.able_to_parse?(xml)
+        xml =~ /media:group/
+      end
+    end
+  end
+end
+Feedzirra::Feed.add_common_feed_entry_element(:"media:group", :class => Feedzirra::Parser::MediaGroupEntry)
+
 module FeedFunnel
   class Funnel
-    def initialize(master_feed)
-      @master_feed = master_feed
+    def initialize(rss, &b)
+      @master_feed = self.parse(rss)
 
-      @master_entries = {}
-      @master_feed.entries.each {|e| @master_entries[e] = [] }
+      @sources = {}
+      @master_feed.entries.each {|e| @sources[e] = [] }
+
+      @b = b
+    end
+
+    def merge
+    end
+
+    protected
+
+    def split_items(rss)
+      r = rss.dup
+    
+      acc = {:before => "", :after => "", :items => []}
+    
+      # Get xml up to the first enclosure
+      b = (r =~ /<item/)
+      acc[:before] = r[0..b]
+      r[b..r.size]
+    
+      while a = (r =~ /<item/)
+        b = (r[a..r.size] =~ /<\/item>/) + 7 # + 2 for the length of the end tag
+    
+        acc[:items] << r[a..a+b-1]
+        r = r[a+b..r.size]
+      end
+    
+      acc[:after] = r
+    
+      acc
+    end
+
+    def parse(feed)
+      Feedzirra::Feed.parse(feed)
+    end
+
+    def add_source(master_entry, source)
+      @master_entries[master_entry] += [*source]
+    end
+
+    def field_from(feed)
+      @b.call(feed)
+    end
+
+    def enclosure_values(entry)
+      {
+        :url    => entry.encloure_url     || entry.media_url,
+        :length => entry.enclosure_length || entry.media_length,
+        :type   => entry.enclosure_type   || entry.media_type
+      }
     end
   end
  
   class LevenshteinFunnel < Funnel
-    def funnel(feed, &b)
+    def funnel(feed)
       entries   = {}
       distances = {}
 
       @master_feed.entries.each do |entry|
-        lowest_edit_distance = most_similar_entry_to(entry, feed, &b)
+        lowest_edit_distance = most_similar_entry_to(entry, feed)
 
         if lowest_edit_distance
           entries[entry]   = lowest_edit_distance.first
@@ -43,20 +117,20 @@ module FeedFunnel
       compute_stats(distances)
 
       @master_feed.entries.each do |entry|
-        @master_entries[entry] << entries[entry] if relevant?(distances[entry])
+        if relevant?(distances[entry])
+          self.link_episodes(entry, self.enclosure_values(entries[entry]))
+        end
       end
-
-      @master_entries
     end
 
-    private
+    protected
 
-    def most_similar_entry_to(entry, feed, &b)
-      str = b.call(entry)
+    def most_similar_entry_to(entry, feed)
+      str = self.field_from(entry)
 
       edit_distances = []
       feed.entries.each do |other_entry|
-        other_str = b.call(other_entry)
+        other_str = self.field_from(other_entry)
 
         next if (str.size - other_str.size).abs > 20
 
@@ -79,18 +153,20 @@ module FeedFunnel
   end
 
   class DirectMatchFunnel < Funnel
-    def funnel(feed, &b)
-    end
-  end
-
-  class Merger
-    def initialize
+    def funnel(feed)
+      @master_feed.entries.each do |entry|
+        feed.entries.each do |f_entry|
+          if self.field_from(entry) == self.field_from(f_entry)
+            self.link_episodes(entry, self.enclosure_values(entries[entry]))
+          end
+        end
+      end
     end
   end
 end
 
-c = FeedFunnel::LevenshteinFunnel.new(Feedzirra::Feed.parse(File.read("spec/rss/alaska_hdtv.rss")))
+c = FeedFunnel::LevenshteinFunnel.new(Feedzirra::Feed.parse(File.read("spec/rss/alaska_hdtv.rss"))) {|e| e.summary.gsub(/<[^>]*>/, "").gsub!(/\W+/, " ") }
 feed = Feedzirra::Feed.parse(File.read("spec/rss/alaska_podshow.rss"))
 #p c.funnel {|e| e.title }
-D = c.funnel(feed) {|e| e.summary.gsub(/<[^>]*>/, "").gsub!(/\W+/, " ") }
+#D = c.funnel(feed)
 
