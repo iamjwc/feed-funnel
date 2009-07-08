@@ -44,7 +44,7 @@ module FeedFunnel
       def to_s
         self.remove_enclosures
         self.add_media_group
-        self.h.to_s
+        self.h.inner_html
       end
 
       protected
@@ -71,7 +71,7 @@ module FeedFunnel
         el = (Hpricot::XML("<#{name} />") % name)
         el[:url]  = m[:url]
         el[:type] = m[:type]
-        el[(name =~ /enclosure/) ? :length : :fileSize] = m[:size]
+        el[(name.to_s =~ /enclosure/) ? :length : :fileSize] = m[:size]
 
         el
       end

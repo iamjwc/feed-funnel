@@ -21,9 +21,9 @@ class Array
 end
 
 # Use publish date to determine if episodes are close at all.
-M = FeedFunnel::Feed.new(File.read("spec/rss/alaska_hdtv.rss"))
+M = FeedFunnel::Feed.new(File.read("spec/rss/super_simple_1.rss"))
 c = FeedFunnel::LevenshteinFunnel.new(M) {|i| (i.h % :description).inner_text.gsub(/<[^>]*>/, "").gsub!(/\W+/, " ") }
 
-F = FeedFunnel::Feed.new(File.read("spec/rss/alaska_podshow.rss"))
+F = FeedFunnel::Feed.new(File.read("spec/rss/super_simple_2.rss"))
 D = c.funnel(F)
 
