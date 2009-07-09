@@ -1,6 +1,6 @@
 require 'levenshtein'
 
-class FeedFunnel::LevenshteinFunnel < Funnel
+class FeedFunnel::LevenshteinFunnel < FeedFunnel::Funnel
   def funnel(feed)
     items, distances = {}, {}
 
