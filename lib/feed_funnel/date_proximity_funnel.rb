@@ -1,5 +1,4 @@
 
-# Use publish date to determine if episodes are close at all.
 module FeedFunnel
   class DateProximityFunnel < Funnel
     def funnel(feed)
