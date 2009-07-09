@@ -9,8 +9,8 @@ module FeedFunnel
         lowest_edit_distance = most_similar_item_to(item, feed)
 
         if lowest_edit_distance
-          items[item]     = lowest_edit_distance.first
-          distances[item] = lowest_edit_distance.last
+          items[item]     = lowest_edit_distance[:item]
+          distances[item] = lowest_edit_distance[:distance]
         end
       end
 
@@ -34,14 +34,17 @@ module FeedFunnel
       feed.items.each do |other_item|
         other_str = self.field_from(other_item)
 
+        # If one of the strings is much longer than the other,
+        # don't even bother compute edit distance
         next if (str.size - other_str.size).abs > 20
 
         distance = Levenshtein::distance(str, other_str)
-        edit_distances << [other_item, distance]
+        edit_distances << {:item => other_item, :distance => distance}
 
+        # Quit early if we get an exact match
         break if distance == 0
       end
-      edit_distances.sort_by {|a| a.last }.first
+      edit_distances.sort_by {|h| h[:distance] }.first
     end
 
     def compute_stats(distances)
