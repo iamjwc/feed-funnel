@@ -32,4 +32,14 @@ describe "With simple feeds" do
       @funnel_on_filename_with_extension.funnel(@other_feed).to_s.should_not match(@combined_feed_regex)
     end
   end
+
+  describe FeedFunnel::DateProximityFunnel do
+    before do
+      @funnel_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed) {|i| (i.h % :pubDate).inner_text }
+    end
+  
+    it "should be able to combine 2 simple feeds on a filename without extension" do
+      @funnel_on_pubdate.funnel(@other_feed).to_s.should match(@combined_feed_regex)
+    end
+  end
 end

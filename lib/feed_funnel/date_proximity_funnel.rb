@@ -15,12 +15,10 @@ module FeedFunnel
     protected
 
     def relevant?(item, f_item)
-      master_date = Date.parse(self.field_from(item))
-      other_date  = Date.parse(self.field_from(f_item))
+      master_date = DateTime.parse(self.field_from(item)).to_time
+      other_date  = DateTime.parse(self.field_from(f_item)).to_time
 
-      master_date && other_date && (master_date > other_date - 1.day && master_date < other_date + 1.day)
-    rescue
-      false
+      (master_date - other_date).abs <= 10 * 60
     end
   end
 end

@@ -1,4 +1,3 @@
-
 class Array
   def mean
     self.inject(0) {|n, i| n + i } / self.size.to_f
