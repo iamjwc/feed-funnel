@@ -15,7 +15,7 @@ module FeedFunnel
 
     def to_s
       (self.h / :item).each_with_index do |item, i|
-        item.inner_html = @items[i].to_s
+        item.inner_html = @items[i].to_h.inner_html
       end
       self.h.to_s
     end
@@ -54,10 +54,10 @@ module FeedFunnel
         self.add_media(self.enclosure_values)
       end
 
-      def to_s
+      def to_h
         self.remove_enclosures
         self.add_media_group
-        self.h.inner_html
+        self.h
       end
 
       protected
