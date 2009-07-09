@@ -22,10 +22,12 @@ module FeedFunnel
 
     class Item
       attr_reader :h
-      attr_accessor :media
 
       def initialize(h)
         @h = h
+        @media = []
+        @media_by_url = {}
+
         self.parse_media
       end
 
@@ -39,8 +41,17 @@ module FeedFunnel
         end
       end
 
+      def add_media(media)
+        [*media].each do |m|
+          @media_by_url[m[:url]] ||= {:count => 0, :media => m}
+          @media_by_url[m[:url]][:count] += 1
+
+          @media << m
+        end
+      end
+
       def parse_media
-        @media = self.enclosure_values
+        self.add_media(self.enclosure_values)
       end
 
       def to_s
@@ -62,10 +73,10 @@ module FeedFunnel
 
       def add_media_group
         group = (Hpricot::XML("<media:group />") % :"media:group")
-        self.media.each do |m|
+        @media.each do |m|
           group.children << media_tag(:"media:content", m)
         end
-        h.children << media_tag(:enclosure, self.media.first)
+        h.children << media_tag(:enclosure, @media.first)
         h.children << group
       end
 

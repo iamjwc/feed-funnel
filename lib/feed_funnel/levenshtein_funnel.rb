@@ -17,7 +17,7 @@ class FeedFunnel::LevenshteinFunnel < FeedFunnel::Funnel
 
     @master_feed.items.each do |item|
       if relevant?(distances[item])
-        item.media += items[item].enclosure_values
+        item.add_media(items[item].enclosure_values)
       end
     end
 
