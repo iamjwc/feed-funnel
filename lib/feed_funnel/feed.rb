@@ -1,6 +1,9 @@
+require 'hpricot'
 
 module FeedFunnel
   class Feed
+    attr_reader :h, :items
+
     def initialize(rss)
       self.parse(rss)
     end
@@ -9,7 +12,6 @@ module FeedFunnel
       @h = Hpricot::XML(rss)
       @items = (h / :item).map {|i| Item.new(i) }
     end
-    attr_reader :h, :items
 
     def to_s
       (self.h / :item).each_with_index do |item, i|
