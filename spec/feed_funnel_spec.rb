@@ -66,21 +66,11 @@ describe "With alaska feeds" do
   
     it "should be able to combine 2 simple feeds on a filename without extension" do
       h = Hpricot::XML(@funnel_on_description.funnel(@other_feed).to_s)
-      media_content_tags  = (h / :item).map {|item| (item / :"media:content").size }
-      media_content = (h / :item).map {|item| (item / :"media:content")}.flatten
-      master_content_tags = (Hpricot::XML(@master_rss) / :item).map {|item| (item / :"media:content")}.flatten
-      other_content_tags  = (Hpricot::XML(@other_rss) / :item).map {|item| (item / :"media:content")}.flatten
+      media_content_tags  = (h / :"media:content").size
+      master_content_tags = (Hpricot::XML(@master_rss) / :"media:content").size
+      other_content_tags  = (Hpricot::XML(@other_rss) / :"media:content").size
 
-      puts "Combined"
-      puts media_content.map {|t| t[:url]}
-      puts "","Master"
-      puts master_content_tags.map {|t| t[:url]}
-      puts other_content_tags.map {|t| t[:url]}
-
-      sum = media_content_tags.inject(0) {|sum, i| sum + i }
-      sum.should be > media_content_tags.size
-
-      media_content_tags.size.should == (master_content_tags + other_content_tags).size
+      media_content_tags.should == (master_content_tags + other_content_tags)
     end
   end
 end
