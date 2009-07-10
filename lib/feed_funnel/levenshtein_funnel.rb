@@ -15,10 +15,17 @@ class FeedFunnel::LevenshteinFunnel < FeedFunnel::Funnel
 
     compute_stats(distances)
 
+    other_items = feed.items.dup
+
     @master_feed.items.each do |item|
       if relevant?(distances[item])
         item.add_media(items[item].enclosure_values)
+        other_items.delete items[item]
       end
+    end
+
+    other_items.each do |item|
+      @master_feed.items << item
     end
 
     @master_feed
