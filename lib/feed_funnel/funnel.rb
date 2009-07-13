@@ -9,15 +9,19 @@ class FeedFunnel::Funnel
   end
 
   def funnel(feed)
+    all_feed_items = feed.items.dup
+
     @master_feed.items.each do |item|
-      feed.items.each do |f_item|
+      all_feed_items.each do |f_item|
         if self.similar?(item, f_item)
           item.add_media(f_item.enclosure_values)
-        else
-          @master_feed.items << f_item
+
+          # Get rid of items that have been associated with the master feed
+          all_feed_items.delete(f_item)
         end
       end
     end
+    all_feed_items.each {|i| @master_feed.items << i }
 
     @master_feed
   end

@@ -50,52 +50,54 @@ describe "With simple feeds" do
   end
 end
 
-describe "With alaska feeds" do
-  before do
-    @master_rss  = File.read("spec/rss/alaska_hdtv.rss")
-    @other_rss   = File.read("spec/rss/alaska_podshow.rss")
-    @master_feed = FeedFunnel::Feed.new(@master_rss)
-    @other_feed  = FeedFunnel::Feed.new(@other_rss)
-  end
-
-  describe FeedFunnel::DateProximityFunnel do
-    before do
-      @funnel_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed) {|i| (i.h % :pubDate).inner_text }
-      @funnel_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| (i.h % :description).inner_text.gsub(/<[^>]*>/, "").gsub!(/\W+/, " ") }
-    end
-  
-    it "should be able to combine 2 simple feeds on a filename without extension" do
-      h = Hpricot::XML(@funnel_on_description.funnel(@other_feed).to_s)
-      media_content_tags  = (h / :"media:content").size
-      master_content_tags = (Hpricot::XML(@master_rss) / :"media:content").size
-      other_content_tags  = (Hpricot::XML(@other_rss) / :"media:content").size
-
-      media_content_tags.should == (master_content_tags + other_content_tags)
-    end
-  end
+def strip_html(s)
+  s.gsub(/&gt;/, ">").gsub(/&lt;/, "<").gsub!(/<[^>]*>/, "").gsub!(/\W+/, " ")
 end
 
-# describe "With moremi feeds" do
+# describe "With alaska feeds" do
 #   before do
-#     @master_feed = FeedFunnel::Feed.new(File.read("spec/rss/moremi_podcast_720.rss"))
-#     @other_feed  = FeedFunnel::Feed.new(File.read("spec/rss/moremi_podcast_ipod.rss"))
+#     @master_rss  = File.read("spec/rss/alaska_hdtv.rss")
+#     @other_rss   = File.read("spec/rss/alaska_podshow.rss")
+#     @master_feed = FeedFunnel::Feed.new(@master_rss)
+#     @other_feed  = FeedFunnel::Feed.new(@other_rss)
 #   end
 # 
 #   describe FeedFunnel::DateProximityFunnel do
 #     before do
 #       @funnel_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed) {|i| (i.h % :pubDate).inner_text }
-#       @funnel_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| (i.h % :description).inner_text.gsub(/<[^>]*>/, "").gsub!(/\W+/, " ") }
-#       @funnel_on_title = FeedFunnel::DirectMatchFunnel.new(@master_feed) {|i| (i.h % :title).inner_text }
+#       @funnel_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| strip_html((i.h % :description).inner_text) }
 #     end
-#   
-#     it "should be able to combine 2 simple feeds on a filename without extension" do
-#       h = Hpricot::XML(@funnel_on_title.funnel(@other_feed).to_s)
-#       puts h
-#       media_content_tags = (h / :item).map {|item| (item / :"media:content").size }
 # 
-#       sum = media_content_tags.inject(0) {|sum, i| sum + i }
-#       
-#       sum.should be > media_content_tags.size
+#     it "shouldn't lose any media urls" do
+#       h = Hpricot::XML(@funnel_on_description.funnel(@other_feed).to_s)
+# 
+#       media_content_tags = (h / :"media:content").size
+#       content_tags = (Hpricot::XML(@master_rss) / :"media:content") + (Hpricot::XML(@other_rss) / :"media:content")
+# 
+#       media_content_tags.should == content_tags.size
 #     end
 #   end
 # end
+
+describe "With moremi feeds" do
+  before do
+    @master_feed = FeedFunnel::Feed.new(File.read("spec/rss/moremi_podcast_720.rss"))
+    @other_feed  = FeedFunnel::Feed.new(File.read("spec/rss/moremi_podcast_ipod.rss"))
+  end
+
+  describe FeedFunnel::DateProximityFunnel do
+    before do
+      @funnel_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed) {|i| (i.h % :pubDate).inner_text }
+      @funnel_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| strip_html((i.h % :description).inner_text) }
+      @funnel_on_title = FeedFunnel::DirectMatchFunnel.new(@master_feed) {|i| (i.h % :title).inner_text }
+    end
+  
+    it "should be able to combine 2 simple feeds on a filename without extension" do
+      media_content_tags = (Hpricot::XML(@funnel_on_title.funnel(@other_feed).to_s) / :item).map {|item| (item / :"media:content").size }
+      sum = media_content_tags.inject(0) {|s, i| s + i }
+      
+      sum.should be > media_content_tags.size
+    end
+  end
+end
+
