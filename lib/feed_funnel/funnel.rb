@@ -8,6 +8,8 @@ class FeedFunnel::Funnel
     @b.call(item)
   end
 
+  # This is the default funnel method. If you define #similar?(a,b), then this
+  # will be used. Otherwise, this method must be completely redefined.
   def funnel(feed)
     all_feed_items = feed.items.dup
 
@@ -24,6 +26,10 @@ class FeedFunnel::Funnel
     all_feed_items.each {|i| @master_feed.items << i }
 
     @master_feed
+  end
+
+  def similar?(a,b)
+    false
   end
 end
 
