@@ -30,7 +30,7 @@ class FeedFunnel::Feed
 end
 
 class FeedFunnel::Feed::Item
-  attr_reader :h, :date
+  attr_reader :h
 
   def initialize(h)
     @h = h

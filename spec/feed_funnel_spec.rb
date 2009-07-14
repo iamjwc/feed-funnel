@@ -51,7 +51,7 @@ describe "With simple feeds" do
 end
 
 def strip_html(s)
-  s.gsub(/&gt;/, ">").gsub(/&lt;/, "<").gsub!(/<[^>]*>/, "").gsub!(/\W+/, " ")
+  s.gsub(/&gt;/, ">").gsub(/&lt;/, "<").gsub(/<[^>]*>/, "").gsub(/\W+/, " ")
 end
 
 # describe "With alaska feeds" do
@@ -78,25 +78,44 @@ end
 #     end
 #   end
 # end
+#end
 
-describe "With moremi feeds" do
+def count_media_urls(rss)
+  (Hpricot::XML(rss.to_s) / :"media:content").size
+end
+
+def count_items(rss)
+  (Hpricot::XML(rss.to_s) / :item).size
+end
+
+describe "With rev3 feeds" do
   before do
-    @master_feed = FeedFunnel::Feed.new(File.read("spec/rss/moremi_podcast_720.rss"))
-    @other_feed  = FeedFunnel::Feed.new(File.read("spec/rss/moremi_podcast_ipod.rss"))
+    @master_rss = File.read("spec/rss/rev3_coop_mp4.rss")
+    @other_rss  = File.read("spec/rss/rev3_coop_flash_large.rss")
+    @master_feed = FeedFunnel::Feed.new(@master_rss)
+    @other_feed  = FeedFunnel::Feed.new(@other_rss)
   end
 
   describe FeedFunnel::DateProximityFunnel do
     before do
-      @funnel_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed) {|i| (i.h % :pubDate).inner_text }
-      @funnel_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| strip_html((i.h % :description).inner_text) }
-      @funnel_on_title = FeedFunnel::DirectMatchFunnel.new(@master_feed) {|i| (i.h % :title).inner_text }
+      @funneled_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed)   {|i| (i.h % :pubDate).inner_text                 }.funnel(@other_feed).to_s
+      @funneled_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| strip_html((i.h % :description).inner_text) }.funnel(@other_feed).to_s
+      @funneled_on_title = FeedFunnel::DirectMatchFunnel.new(@master_feed)       {|i| (i.h % :title).inner_text                   }.funnel(@other_feed).to_s
     end
-  
-    it "should be able to combine 2 simple feeds on a filename without extension" do
-      media_content_tags = (Hpricot::XML(@funnel_on_title.funnel(@other_feed).to_s) / :item).map {|item| (item / :"media:content").size }
-      sum = media_content_tags.inject(0) {|s, i| s + i }
-      
-      sum.should be > media_content_tags.size
+
+    it "shouldn't lose any media urls" do
+      File.open("funneled.rss", "w") {|f| f << @funneled_on_title.to_s }
+      File.open("master.rss", "w")   {|f| f << @master_rss.to_s }
+      File.open("other.rss", "w")    {|f| f << @other_rss.to_s }
+
+      media_urls_sum      = count_media_urls(@funneled_on_title)
+      orig_media_urls_sum = count_media_urls(@master_rss) + count_media_urls(@other_rss)
+
+      media_urls_sum.should be == orig_media_urls_sum
+    end
+
+    it "should be able match items up by description" do
+      count_items(@funneled_on_description).should == count_items(@master_rss)
     end
   end
 end
