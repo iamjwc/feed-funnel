@@ -104,10 +104,6 @@ describe "With rev3 feeds" do
     end
 
     it "shouldn't lose any media urls" do
-      File.open("funneled.rss", "w") {|f| f << @funneled_on_title.to_s }
-      File.open("master.rss", "w")   {|f| f << @master_rss.to_s }
-      File.open("other.rss", "w")    {|f| f << @other_rss.to_s }
-
       media_urls_sum      = count_media_urls(@funneled_on_title)
       orig_media_urls_sum = count_media_urls(@master_rss) + count_media_urls(@other_rss)
 
