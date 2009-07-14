@@ -64,21 +64,27 @@ end
 # 
 #   describe FeedFunnel::DateProximityFunnel do
 #     before do
-#       @funnel_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed) {|i| (i.h % :pubDate).inner_text }
-#       @funnel_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| strip_html((i.h % :description).inner_text) }
+#       @funneled_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed)   {|i| (i.h % :pubDate).inner_text                 }.funnel(@other_feed).to_s
+#       #@funneled_on_description = FeedFunnel::LevenshteinFunnel.new(@master_feed) {|i| strip_html((i.h % :description).inner_text) }.funnel(@other_feed).to_s
+#       @funneled_on_title = FeedFunnel::LevenshteinFunnel.new(@master_feed)       {|i| (i.h % :title).inner_text                   }.funnel(@other_feed).to_s
 #     end
 # 
 #     it "shouldn't lose any media urls" do
-#       h = Hpricot::XML(@funnel_on_description.funnel(@other_feed).to_s)
+#       File.open("funneled.rss", "w") {|f| f << @funneled_on_title.to_s }
+#       File.open("master.rss", "w")   {|f| f << @master_rss.to_s }
+#       File.open("other.rss", "w")    {|f| f << @other_rss.to_s }
 # 
-#       media_content_tags = (h / :"media:content").size
-#       content_tags = (Hpricot::XML(@master_rss) / :"media:content") + (Hpricot::XML(@other_rss) / :"media:content")
+#       media_urls_sum      = count_media_urls(@funneled_on_title)
+#       orig_media_urls_sum = count_media_urls(@master_rss) + count_media_urls(@other_rss)
 # 
-#       media_content_tags.should == content_tags.size
+#       media_urls_sum.should be == orig_media_urls_sum
+#     end
+# 
+#     it "should be able match items up by description" do
+#       count_items(@funneled_on_description).should == count_items(@master_rss)
 #     end
 #   end
 # end
-#end
 
 def count_media_urls(rss)
   (Hpricot::XML(rss.to_s) / :"media:content").size
