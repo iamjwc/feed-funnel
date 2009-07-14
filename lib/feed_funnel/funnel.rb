@@ -8,24 +8,25 @@ class FeedFunnel::Funnel
     @b.call(item)
   end
 
-  # This is the default funnel method. If you define #similar?(a,b), then this
-  # will be used. Otherwise, this method must be completely redefined.
   def funnel(feed)
-    all_feed_items = feed.items.dup
+    self.preprocess(feed) if self.respond_to? :preprocess
 
+    other_items = feed.items.dup
     @master_feed.items.each do |item|
-      all_feed_items.each do |f_item|
-        if self.similar?(item, f_item)
-          item.add_media(f_item.enclosure_values)
+      similar_items(item, other_items).each do |other_item|
+        item.add_media(other_item.enclosure_values)
 
-          # Get rid of items that have been associated with the master feed
-          all_feed_items.delete(f_item)
-        end
+        # Get rid of items that have been associated with the master feed
+        other_items.delete(other_item)
       end
     end
-    all_feed_items.each {|i| @master_feed.items << i }
+    other_items.each {|item| @master_feed.items << item }
 
     @master_feed
+  end
+
+  def similar_items(item, other_items)
+    other_items.select {|other_item| self.similar?(item, other_item) }
   end
 
   def similar?(a,b)

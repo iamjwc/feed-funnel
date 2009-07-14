@@ -1,34 +1,23 @@
 require 'levenshtein'
 
 class FeedFunnel::LevenshteinFunnel < FeedFunnel::Funnel
-  def funnel(feed)
-    items, distances = {}, {}
+  def similar_items(item, other_items)
+    relevant?(@distances[item]) ? [@items[item]] : []
+  end
+
+  def preprocess(feed)
+    @items, @distances = {}, {}
 
     @master_feed.items.each do |item|
       lowest_edit_distance = most_similar_item_to(item, feed)
 
       if lowest_edit_distance
-        items[item]     = lowest_edit_distance[:item]
-        distances[item] = lowest_edit_distance[:distance]
+        @items[item]     = lowest_edit_distance[:item]
+        @distances[item] = lowest_edit_distance[:distance]
       end
     end
 
-    compute_stats(distances)
-
-    other_items = feed.items.dup
-
-    @master_feed.items.each do |item|
-      if relevant?(distances[item])
-        item.add_media(items[item].enclosure_values)
-        other_items.delete items[item]
-      end
-    end
-
-    other_items.each do |item|
-      @master_feed.items << item
-    end
-
-    @master_feed
+    compute_stats
   end
 
   protected
@@ -53,9 +42,9 @@ class FeedFunnel::LevenshteinFunnel < FeedFunnel::Funnel
     edit_distances.sort_by {|h| h[:distance] }.first
   end
 
-  def compute_stats(distances)
-    @mean    = distances.values.mean
-    @std_dev = distances.values.standard_deviation
+  def compute_stats
+    @mean    = @distances.values.mean
+    @std_dev = @distances.values.standard_deviation
   end
 
   def relevant?(distance)
