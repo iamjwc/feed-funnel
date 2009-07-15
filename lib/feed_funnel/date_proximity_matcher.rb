@@ -1,4 +1,4 @@
-class FeedFunnel::DateProximityFunnel < FeedFunnel::Funnel
+class FeedFunnel::DateProximityMatcher < FeedFunnel::Matcher
   def similar?(item, f_item)
     master_date = DateTime.parse(self.field_from(item)).to_time
     other_date  = DateTime.parse(self.field_from(f_item)).to_time

@@ -1,14 +1,14 @@
 require 'levenshtein'
 
-class FeedFunnel::LevenshteinFunnel < FeedFunnel::Funnel
+class FeedFunnel::LevenshteinMatcher < FeedFunnel::Matcher
   def similar_items(item, other_items)
     relevant?(@distances[item]) ? [@items[item]] : []
   end
 
-  def preprocess(feed)
+  def preprocess(master_feed, feed)
     @items, @distances = {}, {}
 
-    @master_feed.items.each do |item|
+    master_feed.items.each do |item|
       lowest_edit_distance = most_similar_item_to(item, feed)
 
       if lowest_edit_distance
