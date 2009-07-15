@@ -113,7 +113,6 @@ describe "With rev3 feeds" do
 
   describe FeedFunnel::Funnel do
     before do
-      # @funneled_on_pubdate = FeedFunnel::DateProximityFunnel.new(@master_feed)   {|i| (i.h % :pubDate).inner_text                 }.funnel(@other_feed).to_s
       @funneled_on_description = FeedFunnel::Funnel.new(@master_feed,
 																												:matchers => [FeedFunnel::LevenshteinMatcher.new {|i| strip_html((i.h % :description).inner_text) }],
 																												:feeds    => [@other_feed]).GO!.to_s
