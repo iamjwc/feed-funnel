@@ -2,7 +2,7 @@ require 'levenshtein'
 
 class FeedFunnel::LevenshteinMatcher < FeedFunnel::Matcher
   def similar_items(item, other_items)
-    relevant?(@distances[item]) ? [@items[item]] : []
+    @items[item] && relevant?(@distances[item]) ? [@items[item]] : []
   end
 
   def preprocess(master_feed, feed)

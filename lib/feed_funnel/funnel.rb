@@ -14,12 +14,10 @@ class FeedFunnel::Funnel
       other_items = feed.items.dup
 
       @master_feed.items.each do |item|
-        similar_items.keys.each do |similar_item|
-          item.add_media(similar_item.enclosure_values) if other_items.include?(similar_item)
+        similar_item = similar_items[item]
+        item.add_media(similar_item.enclosure_values) if other_items.include?(similar_item)
 
-          # Get rid of items that have been associated with the master feed
-          other_items.delete(similar_item)
-        end
+        other_items.delete(similar_item)
       end
       other_items.each {|item| @master_feed.items << item }
     end
@@ -33,9 +31,10 @@ class FeedFunnel::Funnel
     similar_items = {}
     @matchers.each do |matcher|
       @master_feed.items.each do |item|
-        items = matcher.similar_items(item, feed.items)
-        items.each do |i|
-          (similar_items[i] ||= []) << matcher
+        # Matcher gets all similar items between current master
+        # feed item and all items in the other feed
+        matcher.similar_items(item, feed.items).each do |matched_items|
+          similar_items[item] = matched_items
         end
       end
     end
