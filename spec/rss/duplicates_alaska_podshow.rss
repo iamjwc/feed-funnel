@@ -1,119 +1,299 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
 <?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
-  <channel>
-    <title>Alaska HDTV | Portable Format</title>
-    <link>http://www.alaskahdtv.com</link>
-    <description>Alaska HDTV is a series of shows produced in high definition sharing the Alaska experience with a global audience. Become an Alaska Insider today!</description>
-    <language>en</language>
-    <image>
-      <link>http://www.feedburner.com</link>
-      <url>http://www.feedburner.com/fb/images/pub/fb_pwrd.gif</url>
-      <title>This Feed Powered by FeedBurner.com</title>
-    </image>
-    <copyright>Copyright 2005-2009 Perfect Blend Media, LLC</copyright>
-    <managingEditor>skshow@alaskahdtv.com (Scott Slone)</managingEditor>
-    <lastBuildDate>Fri, 19 Jun 2009 20:19:00 PDT</lastBuildDate>
-    <generator>Liberated Syndication - libsyn.com</generator>
-    <itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
-    <itunes:summary>Alaska HDTV is a series of shows produced in high definition with a dedication to sharing the Alaska experience with a global audience.  Your host Scott Slone extends a real life experience for the viewer - allowing you to connect with the location and the adventure. Join us into Alaska!</itunes:summary>
-    <itunes:keywords>Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</itunes:keywords>
-    <itunes:author>Scott Slone</itunes:author>
-    <itunes:image href="http://www.alaskahdtv.com/img/alaskapodshow-cover.jpg" />
-    <itunes:explicit>no</itunes:explicit>
-    <media:copyright>Copyright 2005-2009 Perfect Blend Media, LLC</media:copyright>
-    <media:thumbnail url="http://www.alaskahdtv.com/img/alaskapodshow-cover.jpg" />
-    <media:keywords>Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</media:keywords>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture/Places &amp; Travel</media:category>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category>
-    <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">TV &amp; Film</media:category>
-    <itunes:owner>
-      <itunes:email>alaskahdtv@gmail.com</itunes:email>
-      <itunes:name>Scott Slone</itunes:name>
-    </itunes:owner>
-    <itunes:category text="Society &amp; Culture"><itunes:category text="Places &amp; Travel" /></itunes:category>
-    <itunes:category text="Society &amp; Culture" />
-    <itunes:category text="TV &amp; Film" />
-    <geo:lat>61.122943</geo:lat>
-    <geo:long>-149.888525</geo:long>
-    <creativeCommons:license>http://creativecommons.org/licenses/by-nc-nd/2.0/</creativeCommons:license>
-    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://alaskapodshow.com/podshow_archive/podcast.xml" type="application/rss+xml" />
-    <feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare>
-    <feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare>
-    <feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare>
-    <feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare>
-    <feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare>
-    <feedburner:feedFlare href="http://odeo.com/listen/subscribe?feed=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml" src="http://odeo.com/img/badge-channel-black.gif">Subscribe with ODEO</feedburner:feedFlare>
-    <feedburner:feedFlare href="http://www.podnova.com/add.srf?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml" src="http://www.podnova.com/img_chicklet_podnova.gif">Subscribe with Podnova</feedburner:feedFlare>
-    <feedburner:browserFriendly>This is an Alaska HDTV XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use. -Enjoy the Show! </feedburner:browserFriendly>
-
-    <item>
-      <title>Hike of the Week | Hatcher Pass | Alaska HDTV</title>
-      <link>http://feedproxy.google.com/~r/alaskapodshow/~3/Ssrd0n45PtQ/index.php</link>
-      <category>alaskapodshow</category>
-      <pubDate>Wed, 02 Jul 2008 19:46:00 PDT</pubDate>
-      <guid isPermaLink="false">http://alaskahdtv.libsyn.com/index.php?post_id=384049#</guid>
-      <description>&lt;p&gt;Alaska HDTV Presents: Hatcher Pass &amp;quot;Unknown&amp;quot; hike.&lt;/p&gt; &lt;p&gt;Greetings Hike of the Week fans!&lt;/p&gt; &lt;p&gt;We originally had another hike planned but the pass was not open through to Summit Lake, so the hike was diverted to a spontaneous location I've not hiked in over ten years. √ÇWe'll call this one though a very scenic, family friendly, and not heavily traveled hike from what I could see. It's July 2nd as I write this and we've still a fare amount of snow still on the ground with early spring still coming through in areas above 2000 feet.&lt;/p&gt; &lt;p&gt;Enjoy the SHOW&lt;/p&gt; &lt;p&gt;Scott&lt;/p&gt; &lt;p&gt;Alaska HDTV&lt;/p&gt; &lt;p&gt;www.alaskahdtv.com√Ç&lt;/p&gt;&lt;div class="feedflare"&gt;
-        &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:63t7Ie-LG7Y"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=63t7Ie-LG7Y" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:dnMXMwOfBR0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=dnMXMwOfBR0" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:YwkR-u9nhCs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=YwkR-u9nhCs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Ssrd0n45PtQ:YLI9SwfDe10:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Ssrd0n45PtQ:YLI9SwfDe10:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Ssrd0n45PtQ:YLI9SwfDe10:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
-        &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/alaskapodshow/~4/Ssrd0n45PtQ" height="1" width="1"/&gt;</description>
-      <itunes:author>Scott Slone</itunes:author>
-      <itunes:explicit>Clean</itunes:explicit>
-      <author>alaskahdtv@gmail.com (Scott Slone)</author>
-      <media:content url="http://feedproxy.google.com/~r/alaskapodshow/~5/MV0s8-qna20/alaska-117382-07-02-2008.mp4" fileSize="106024292" type="application/octet-stream" />
-      <itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
-      <itunes:summary>Alaska HDTV is a series of shows produced in high definition geared to sharing the real Alaska experience to a global audience. Experience Alaska with Scott Slone a 5th generation Alaskan passionate about making you an Alaska Insider.</itunes:summary>
-      <itunes:keywords>Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</itunes:keywords>
-      <feedburner:origLink>http://alaskahdtv.libsyn.com/index.php?post_id=384049#</feedburner:origLink>
-      <enclosure url="http://feedproxy.google.com/~r/alaskapodshow/~5/MV0s8-qna20/alaska-117382-07-02-2008.mp4" length="106024292" type="application/octet-stream" />
-      <feedburner:origEnclosureLink>http://media.libsyn.com/media/alaskahdtv/alaska-117382-07-02-2008.mp4</feedburner:origEnclosureLink>
-    </item>
-
-    <item>
-      <title>Event | Fur Rondy 2008 Great Dogs &amp; Chopper Days | Alaska Podshow</title>
-      <link>http://feedproxy.google.com/~r/alaskapodshow/~3/hlozxus_EBI/index.php</link>
-      <category>alaskapodshow</category>
-      <pubDate>Thu, 28 Feb 2008 20:04:00 PST</pubDate>
-      <guid isPermaLink="false">http://alaskahdtv.libsyn.com/index.php?post_id=384069#</guid>
-      <description>&lt;p&gt;Alaska Podshow Presents:&lt;/p&gt; &lt;p&gt;&lt;span style="font-family:'Lucida Grande';font-size:11px;" class="Apple-style-span"&gt;Interviews with a few folks that make Fur Rondy special!&lt;/span&gt;&lt;/p&gt; &lt;p&gt;More information on this event at: www.furrondy.net and www.alaskapodshow.com&lt;/p&gt; &lt;p&gt;Cheers,&lt;/p&gt; &lt;p&gt;Scott√Ç&lt;/p&gt;&lt;div class="feedflare"&gt;
-        &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:63t7Ie-LG7Y"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=63t7Ie-LG7Y" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:dnMXMwOfBR0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=dnMXMwOfBR0" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:YwkR-u9nhCs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=YwkR-u9nhCs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=hlozxus_EBI:ER2n9_ixp5M:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=hlozxus_EBI:ER2n9_ixp5M:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=hlozxus_EBI:ER2n9_ixp5M:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
-        &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/alaskapodshow/~4/hlozxus_EBI" height="1" width="1"/&gt;</description>
-      <itunes:author>Scott Slone</itunes:author>
-      <itunes:explicit>Clean</itunes:explicit>
-      <author>alaskahdtv@gmail.com (Scott Slone)</author>
-      <media:content url="http://feedproxy.google.com/~r/alaskapodshow/~5/sm8exCA-YH0/alaska-101588-02-28-2008.mp4" fileSize="74114646" type="application/octet-stream" />
-      <itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
-      <itunes:summary>Alaska HDTV is a series of shows produced in high definition geared to sharing the real Alaska experience to a global audience. Experience Alaska with Scott Slone a 5th generation Alaskan passionate about making you an Alaska Insider.</itunes:summary>
-      <itunes:keywords>Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</itunes:keywords>
-      <feedburner:origLink>http://alaskahdtv.libsyn.com/index.php?post_id=384069#</feedburner:origLink>
-      <enclosure url="http://feedproxy.google.com/~r/alaskapodshow/~5/sm8exCA-YH0/alaska-101588-02-28-2008.mp4" length="74114646" type="application/octet-stream" />
-      <feedburner:origEnclosureLink>http://media.libsyn.com/media/alaskahdtv/alaska-101588-02-28-2008.mp4</feedburner:origEnclosureLink>
-    </item>
-
-    <item>
-      <title>Adventure | Petersburg and LeConte Glacier | AlaskaHDTV.com</title>
-      <link>http://feedproxy.google.com/~r/alaskapodshow/~3/Kh30eqQJs9o/index.php</link>
-      <category>alaskapodshow</category>
-      <pubDate>Tue, 04 Nov 2008 13:21:00 PST</pubDate>
-      <guid isPermaLink="false">http://alaskahdtv.libsyn.com/index.php?post_id=399847#</guid>
-      <description>Join Alaska HDTV as we travel to Petersburg, and then onto amazing LeConte Glacier with your host Scott Slone on this Adventure series from Southeast Wrangell, Alaska.&lt;br/&gt;&lt;br/&gt;Get more on this show at:&lt;br/&gt;&lt;a title="Alaska Travel Adventure Show" name="Alaska HDTV" target="_blank"&gt;AlaskaHDTV.com&lt;/a&gt;&lt;br/&gt;&lt;div class="feedflare"&gt;
-        &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:63t7Ie-LG7Y"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=63t7Ie-LG7Y" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:dnMXMwOfBR0"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=dnMXMwOfBR0" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:7Q72WNTAKBA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=7Q72WNTAKBA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:YwkR-u9nhCs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=YwkR-u9nhCs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Kh30eqQJs9o:qwv3-nyyQWk:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Kh30eqQJs9o:qwv3-nyyQWk:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:gIN9vFwOqvQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Kh30eqQJs9o:qwv3-nyyQWk:gIN9vFwOqvQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
-        &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/alaskapodshow/~4/Kh30eqQJs9o" height="1" width="1"/&gt;</description>
-      <itunes:keywords>Alaska, Travel, Petersburg, LeConte, Glacier</itunes:keywords>
-      <itunes:author>Scott Slone</itunes:author>
-      <itunes:explicit>Clean</itunes:explicit>
-      <author>alaskahdtv@gmail.com (Scott Slone)</author>
-      <media:content url="http://feedproxy.google.com/~r/alaskapodshow/~5/zTCcJQipkss/LeConte_iphone.mp4" fileSize="159353275" type="audio/mp4" />
-      <itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
-      <itunes:summary>Alaska HDTV is a series of shows produced in high definition geared to sharing the real Alaska experience to a global audience. Experience Alaska with Scott Slone a 5th generation Alaskan passionate about making you an Alaska Insider.</itunes:summary>
-      <feedburner:origLink>http://alaskahdtv.libsyn.com/index.php?post_id=399847#</feedburner:origLink>
-      <enclosure url="http://feedproxy.google.com/~r/alaskapodshow/~5/zTCcJQipkss/LeConte_iphone.mp4" length="159353275" type="audio/mp4" />
-      <feedburner:origEnclosureLink>http://media.libsyn.com/media/alaskahdtv/LeConte_iphone.mp4</feedburner:origEnclosureLink>
-    </item>
-
-    <media:credit role="author">Scott Slone</media:credit>
-    <media:rating>nonadult</media:rating>
-    <media:description type="plain">Alaska HDTV | Portable Format</media:description>
-  </channel>
+<rss xmlns:media="http://search.yahoo.com/mrss/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+version="2.0">
+<channel>
+<title>Alaska HDTV | Portable Format</title>
+<link>http://www.alaskahdtv.com</link>
+<description>Alaska HDTV is a series of shows produced in high
+definition sharing the Alaska experience with a global audience.
+Become an Alaska Insider today!</description>
+<language>en</language>
+<image>
+<link>http://www.feedburner.com</link>
+<url>http://www.feedburner.com/fb/images/pub/fb_pwrd.gif</url>
+<title>This Feed Powered by FeedBurner.com</title>
+</image>
+<copyright>Copyright 2005-2009 Perfect Blend Media, LLC</copyright>
+<managingEditor>skshow@alaskahdtv.com (Scott
+Slone)</managingEditor>
+<lastBuildDate>Fri, 19 Jun 2009 20:19:00 PDT</lastBuildDate>
+<generator>Liberated Syndication - libsyn.com</generator>
+<itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
+<itunes:summary>Alaska HDTV is a series of shows produced in high
+definition with a dedication to sharing the Alaska experience with
+a global audience. Your host Scott Slone extends a real life
+experience for the viewer - allowing you to connect with the
+location and the adventure. Join us into Alaska!</itunes:summary>
+<itunes:keywords>
+Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</itunes:keywords>
+<itunes:author>Scott Slone</itunes:author>
+<itunes:image href="http://www.alaskahdtv.com/img/alaskapodshow-cover.jpg" />
+<itunes:explicit>no</itunes:explicit>
+<media:copyright>Copyright 2005-2009 Perfect Blend Media,
+LLC</media:copyright>
+<media:thumbnail url="http://www.alaskahdtv.com/img/alaskapodshow-cover.jpg" />
+<media:keywords>
+Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</media:keywords>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">
+Society &amp; Culture/Places &amp; Travel</media:category>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">
+Society &amp; Culture</media:category>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">
+TV &amp; Film</media:category>
+<itunes:owner>
+<itunes:email>alaskahdtv@gmail.com</itunes:email>
+<itunes:name>Scott Slone</itunes:name>
+</itunes:owner>
+<itunes:category text="Society &amp; Culture">
+<itunes:category text="Places &amp; Travel" />
+</itunes:category>
+<itunes:category text="Society &amp; Culture" />
+<itunes:category text="TV &amp; Film" />
+<geo:lat>61.122943</geo:lat>
+<geo:long>-149.888525</geo:long>
+<creativeCommons:license>
+http://creativecommons.org/licenses/by-nc-nd/2.0/</creativeCommons:license>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self"
+href="http://alaskapodshow.com/podshow_archive/podcast.xml"
+type="application/rss+xml" />
+<feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml"
+src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">
+Subscribe with My Yahoo!</feedburner:feedFlare>
+<feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml"
+src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with
+NewsGator</feedburner:feedFlare>
+<feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml"
+src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with
+Netvibes</feedburner:feedFlare>
+<feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml"
+src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe
+with Google</feedburner:feedFlare>
+<feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml"
+src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">
+Subscribe with Pageflakes</feedburner:feedFlare>
+<feedburner:feedFlare href="http://odeo.com/listen/subscribe?feed=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml"
+src="http://odeo.com/img/badge-channel-black.gif">Subscribe with
+ODEO</feedburner:feedFlare>
+<feedburner:feedFlare href="http://www.podnova.com/add.srf?url=http%3A%2F%2Falaskapodshow.com%2Fpodshow_archive%2Fpodcast.xml"
+src="http://www.podnova.com/img_chicklet_podnova.gif">Subscribe
+with Podnova</feedburner:feedFlare>
+<feedburner:browserFriendly>This is an Alaska HDTV XML content
+feed. It is intended to be viewed in a newsreader or syndicated to
+another site, subject to copyright and fair use. -Enjoy the
+Show!</feedburner:browserFriendly>
+<item>
+<title>Hike of the Week | Hatcher Pass | Alaska HDTV</title>
+<link>
+http://feedproxy.google.com/~r/alaskapodshow/~3/Ssrd0n45PtQ/index.php</link>
+<category>alaskapodshow</category>
+<pubDate>Wed, 02 Jul 2008 19:46:00 PDT</pubDate>
+<guid isPermaLink="false">
+http://alaskahdtv.libsyn.com/index.php?post_id=384049#</guid>
+<description>&lt;p&gt;Alaska HDTV Presents: Hatcher Pass
+&amp;quot;Unknown&amp;quot; hike.&lt;/p&gt; &lt;p&gt;Greetings Hike
+of the Week fans!&lt;/p&gt; &lt;p&gt;We originally had another hike
+planned but the pass was not open through to Summit Lake, so the
+hike was diverted to a spontaneous location I've not hiked in over
+ten years. &#226;&#710;&#353;&#195;&#8225;We'll call this one
+though a very scenic, family friendly, and not heavily traveled
+hike from what I could see. It's July 2nd as I write this and we've
+still a fare amount of snow still on the ground with early spring
+still coming through in areas above 2000 feet.&lt;/p&gt;
+&lt;p&gt;Enjoy the SHOW&lt;/p&gt; &lt;p&gt;Scott&lt;/p&gt;
+&lt;p&gt;Alaska HDTV&lt;/p&gt;
+&lt;p&gt;www.alaskahdtv.com&#226;&#710;&#353;&#195;&#8225;&lt;/p&gt;&lt;div
+class="feedflare"&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:yIl2AUoC8zA"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=yIl2AUoC8zA"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:63t7Ie-LG7Y"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=63t7Ie-LG7Y"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:dnMXMwOfBR0"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=dnMXMwOfBR0"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:7Q72WNTAKBA"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=7Q72WNTAKBA"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:YwkR-u9nhCs"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=YwkR-u9nhCs"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:F7zBnMyn0Lo"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Ssrd0n45PtQ:YLI9SwfDe10:F7zBnMyn0Lo"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:V_sGLiPBpWU"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Ssrd0n45PtQ:YLI9SwfDe10:V_sGLiPBpWU"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:qj6IDK7rITs"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=qj6IDK7rITs"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Ssrd0n45PtQ:YLI9SwfDe10:gIN9vFwOqvQ"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Ssrd0n45PtQ:YLI9SwfDe10:gIN9vFwOqvQ"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img
+src="http://feeds.feedburner.com/~r/alaskapodshow/~4/Ssrd0n45PtQ"
+height="1" width="1"/&gt;</description>
+<itunes:author>Scott Slone</itunes:author>
+<itunes:explicit>Clean</itunes:explicit>
+<author>alaskahdtv@gmail.com (Scott Slone)</author>
+<media:content url="http://feedproxy.google.com/~r/alaskapodshow/~5/MV0s8-qna20/alaska-117382-07-02-2008.mp4"
+fileSize="106024292" type="application/octet-stream" />
+<itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
+<itunes:summary>Alaska HDTV is a series of shows produced in high
+definition geared to sharing the real Alaska experience to a global
+audience. Experience Alaska with Scott Slone a 5th generation
+Alaskan passionate about making you an Alaska
+Insider.</itunes:summary>
+<itunes:keywords>
+Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</itunes:keywords>
+<feedburner:origLink>
+http://alaskahdtv.libsyn.com/index.php?post_id=384049#</feedburner:origLink>
+<enclosure url="http://feedproxy.google.com/~r/alaskapodshow/~5/MV0s8-qna20/alaska-117382-07-02-2008.mp4"
+length="106024292" type="application/octet-stream" />
+<feedburner:origEnclosureLink>
+http://media.libsyn.com/media/alaskahdtv/alaska-117382-07-02-2008.mp4</feedburner:origEnclosureLink>
+</item>
+<item>
+<title>Event | Fur Rondy 2008 Great Dogs &amp; Chopper Days |
+Alaska Podshow</title>
+<link>
+http://feedproxy.google.com/~r/alaskapodshow/~3/hlozxus_EBI/index.php</link>
+<category>alaskapodshow</category>
+<pubDate>Thu, 28 Feb 2008 20:04:00 PST</pubDate>
+<guid isPermaLink="false">
+http://alaskahdtv.libsyn.com/index.php?post_id=384069#</guid>
+<description>&lt;p&gt;Alaska Podshow Presents:&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-family:'Lucida
+Grande';font-size:11px;" class="Apple-style-span"&gt;Interviews
+with a few folks that make Fur Rondy
+special!&lt;/span&gt;&lt;/p&gt; &lt;p&gt;More information on this
+event at: www.furrondy.net and www.alaskapodshow.com&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;/p&gt;
+&lt;p&gt;Scott&#226;&#710;&#353;&#195;&#8225;&lt;/p&gt;&lt;div
+class="feedflare"&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:yIl2AUoC8zA"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=yIl2AUoC8zA"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:63t7Ie-LG7Y"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=63t7Ie-LG7Y"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:dnMXMwOfBR0"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=dnMXMwOfBR0"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:7Q72WNTAKBA"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=7Q72WNTAKBA"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:YwkR-u9nhCs"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=YwkR-u9nhCs"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:F7zBnMyn0Lo"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=hlozxus_EBI:ER2n9_ixp5M:F7zBnMyn0Lo"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:V_sGLiPBpWU"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=hlozxus_EBI:ER2n9_ixp5M:V_sGLiPBpWU"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:qj6IDK7rITs"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=qj6IDK7rITs"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=hlozxus_EBI:ER2n9_ixp5M:gIN9vFwOqvQ"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=hlozxus_EBI:ER2n9_ixp5M:gIN9vFwOqvQ"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img
+src="http://feeds.feedburner.com/~r/alaskapodshow/~4/hlozxus_EBI"
+height="1" width="1"/&gt;</description>
+<itunes:author>Scott Slone</itunes:author>
+<itunes:explicit>Clean</itunes:explicit>
+<author>alaskahdtv@gmail.com (Scott Slone)</author>
+<media:content url="http://feedproxy.google.com/~r/alaskapodshow/~5/sm8exCA-YH0/alaska-101588-02-28-2008.mp4"
+fileSize="74114646" type="application/octet-stream" />
+<itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
+<itunes:summary>Alaska HDTV is a series of shows produced in high
+definition geared to sharing the real Alaska experience to a global
+audience. Experience Alaska with Scott Slone a 5th generation
+Alaskan passionate about making you an Alaska
+Insider.</itunes:summary>
+<itunes:keywords>
+Alaska,HD,Video,Podcast,Travel,Adventures,Screensaver</itunes:keywords>
+<feedburner:origLink>
+http://alaskahdtv.libsyn.com/index.php?post_id=384069#</feedburner:origLink>
+<enclosure url="http://feedproxy.google.com/~r/alaskapodshow/~5/sm8exCA-YH0/alaska-101588-02-28-2008.mp4"
+length="74114646" type="application/octet-stream" />
+<feedburner:origEnclosureLink>
+http://media.libsyn.com/media/alaskahdtv/alaska-101588-02-28-2008.mp4</feedburner:origEnclosureLink>
+</item>
+<item>
+<title>Adventure | Petersburg and LeConte Glacier |
+AlaskaHDTV.com</title>
+<link>
+http://feedproxy.google.com/~r/alaskapodshow/~3/Kh30eqQJs9o/index.php</link>
+<category>alaskapodshow</category>
+<pubDate>Tue, 04 Nov 2008 13:21:00 PST</pubDate>
+<guid isPermaLink="false">
+http://alaskahdtv.libsyn.com/index.php?post_id=399847#</guid>
+<description>Join Alaska HDTV as we travel to Petersburg, and then
+onto amazing LeConte Glacier with your host Scott Slone on this
+Adventure series from Southeast Wrangell,
+Alaska.&lt;br/&gt;&lt;br/&gt;Get more on this show
+at:&lt;br/&gt;&lt;a title="Alaska Travel Adventure Show"
+name="Alaska HDTV"
+target="_blank"&gt;AlaskaHDTV.com&lt;/a&gt;&lt;br/&gt;&lt;div
+class="feedflare"&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:yIl2AUoC8zA"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=yIl2AUoC8zA"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:63t7Ie-LG7Y"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=63t7Ie-LG7Y"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:dnMXMwOfBR0"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=dnMXMwOfBR0"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:7Q72WNTAKBA"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=7Q72WNTAKBA"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:YwkR-u9nhCs"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=YwkR-u9nhCs"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:F7zBnMyn0Lo"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Kh30eqQJs9o:qwv3-nyyQWk:F7zBnMyn0Lo"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:V_sGLiPBpWU"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Kh30eqQJs9o:qwv3-nyyQWk:V_sGLiPBpWU"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:qj6IDK7rITs"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?d=qj6IDK7rITs"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a
+href="http://feeds.feedburner.com/~ff/alaskapodshow?a=Kh30eqQJs9o:qwv3-nyyQWk:gIN9vFwOqvQ"&gt;&lt;img
+src="http://feeds.feedburner.com/~ff/alaskapodshow?i=Kh30eqQJs9o:qwv3-nyyQWk:gIN9vFwOqvQ"
+border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;/div&gt;&lt;img
+src="http://feeds.feedburner.com/~r/alaskapodshow/~4/Kh30eqQJs9o"
+height="1" width="1"/&gt;</description>
+<itunes:keywords>Alaska, Travel, Petersburg, LeConte,
+Glacier</itunes:keywords>
+<itunes:author>Scott Slone</itunes:author>
+<itunes:explicit>Clean</itunes:explicit>
+<author>alaskahdtv@gmail.com (Scott Slone)</author>
+<media:content url="http://feedproxy.google.com/~r/alaskapodshow/~5/zTCcJQipkss/LeConte_iphone.mp4"
+fileSize="159353275" type="audio/mp4" />
+<itunes:subtitle>Alaska HDTV | Portable Format</itunes:subtitle>
+<itunes:summary>Alaska HDTV is a series of shows produced in high
+definition geared to sharing the real Alaska experience to a global
+audience. Experience Alaska with Scott Slone a 5th generation
+Alaskan passionate about making you an Alaska
+Insider.</itunes:summary>
+<feedburner:origLink>
+http://alaskahdtv.libsyn.com/index.php?post_id=399847#</feedburner:origLink>
+<enclosure url="http://feedproxy.google.com/~r/alaskapodshow/~5/zTCcJQipkss/LeConte_iphone.mp4"
+length="159353275" type="audio/mp4" />
+<feedburner:origEnclosureLink>
+http://media.libsyn.com/media/alaskahdtv/LeConte_iphone.mp4</feedburner:origEnclosureLink>
+</item>
+<media:credit role="author">Scott Slone</media:credit>
+<media:rating>nonadult</media:rating>
+<media:description type="plain">Alaska HDTV | Portable
+Format</media:description>
+</channel>
 </rss>
-

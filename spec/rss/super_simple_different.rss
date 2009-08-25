@@ -1,9 +1,9 @@
 <rss>
-  <channel>
-    <item>
-      <description>different</description>
-      <pubDate>Sun, 10 May 2000 15:21:36 GMT</pubDate>
-      <enclosure url="http://iamjwc.com/different.mov" />
-    </item>
-  </channel>
+<channel>
+<item>
+<description>different</description>
+<pubDate>Sun, 10 May 2000 15:21:36 GMT</pubDate>
+<enclosure url="http://iamjwc.com/different.mov" />
+</item>
+</channel>
 </rss>

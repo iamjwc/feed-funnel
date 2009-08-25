@@ -1,274 +1,644 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
-                				<channel>
-								 		<title>Moremi Lions Channel, iPod</title>
-										<itunes:author>Earth-Touch.com</itunes:author>
-										<link>http://www.earth-touch.com/</link>
-										<description>The Moremi lions channel show features all the best Earth-Touch footage from the Moremi Game Reserve in Botswana, Southern Africa all in one show. This is a great way to get a bite size package of the wildlife happenings Earth-Touch has seen in Botswana. These shows are free to all.</description>
-										<itunes:subtitle>The Moremi lions channel show features all the best Earth-Touch footage from the Moremi Game Reserve in Botswana, Southern Africa all in one show. This is a great way to get a bite size package of the wildlife happenings Earth-Touch has seen in Botswana. </itunes:subtitle>
-										<itunes:summary>The Moremi lions channel show features all the best Earth-Touch footage from the Moremi Game Reserve in Botswana, Southern Africa all in one show. This is a great way to get a bite size package of the wildlife happenings Earth-Touch has seen in Botswana. These shows are free to all.</itunes:summary>
-										<language>en</language>
-										<copyright>Copyright Earth-Touch 2009</copyright>
-										<itunes:owner>
-											<itunes:name>Earth-Touch.com</itunes:name>
-											<itunes:email>support@earth-touch.com</itunes:email>
-										</itunes:owner>
-										<itunes:image href="http://www.earth-touch.com/i/podcast/LOM_IPOD.jpg" />
-										<category>Podcast</category>
-										<itunes:explicit>no</itunes:explicit>
-										<itunes:keywords>wildlife, Earth-Touch, Earth-Touch.com, reality, animals, HD, high-definition, high, definition,  video, nature, environment, earth</itunes:keywords>
-										<lastBuildDate>Fri, 10 Jul 2009 20:30:34 GMT</lastBuildDate>
-										<docs>http://blogs.law.harvard.edu/tech/rss</docs>
-										<generator>PHP</generator>
-										<managingEditor>editor@earth-touch.com</managingEditor>
-										<webMaster>webmaster@earth-touch.com</webMaster>
-										<itunes:category text="TV &amp; Film" />
-										<media:copyright>Copyright Earth-Touch 2009</media:copyright><media:thumbnail url="http://www.earth-touch.com/i/podcast/LOM_IPOD.jpg" /><media:keywords>wildlife, Earth-Touch, Earth-Touch.com, reality, animals, HD, high-definition, high, definition, video, nature, environment, earth</media:keywords><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">TV &amp; Film</media:category><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/moremi_podcast_ipod" type="application/rss+xml" /><item>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+	version="2.0">
+	<channel>
+		<title>Moremi Lions Channel, iPod</title>
+		<itunes:author>Earth-Touch.com</itunes:author>
+		<link>http://www.earth-touch.com/</link>
+		<description>The Moremi lions channel show features all the best
+			Earth-Touch footage from the Moremi Game Reserve in Botswana,
+			Southern Africa all in one show. This is a great way to get a bite
+			size package of the wildlife happenings Earth-Touch has seen in
+			Botswana. These shows are free to all.</description>
+		<itunes:subtitle>The Moremi lions channel show features all the
+			best Earth-Touch footage from the Moremi Game Reserve in Botswana,
+			Southern Africa all in one show. This is a great way to get a bite
+			size package of the wildlife happenings Earth-Touch has seen in
+			Botswana.</itunes:subtitle>
+		<itunes:summary>The Moremi lions channel show features all the best
+			Earth-Touch footage from the Moremi Game Reserve in Botswana,
+			Southern Africa all in one show. This is a great way to get a bite
+			size package of the wildlife happenings Earth-Touch has seen in
+			Botswana. These shows are free to all.</itunes:summary>
+		<language>en</language>
+		<copyright>Copyright Earth-Touch 2009</copyright>
+		<itunes:owner>
+			<itunes:name>Earth-Touch.com</itunes:name>
+			<itunes:email>support@earth-touch.com</itunes:email>
+		</itunes:owner>
+		<itunes:image href="http://www.earth-touch.com/i/podcast/LOM_IPOD.jpg" />
+		<category>Podcast</category>
+		<itunes:explicit>no</itunes:explicit>
+		<itunes:keywords>wildlife, Earth-Touch, Earth-Touch.com, reality,
+			animals, HD, high-definition, high, definition, video, nature,
+			environment, earth</itunes:keywords>
+		<lastBuildDate>Mon, 24 Aug 2009 23:34:06 GMT</lastBuildDate>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<generator>PHP</generator>
+		<managingEditor>editor@earth-touch.com (Brian
+			Palmer)</managingEditor>
+		<webMaster>webmaster@earth-touch.com (Brian Palmer)</webMaster>
+		<itunes:category text="TV &amp; Film" />
+		<media:copyright>Copyright Earth-Touch 2009</media:copyright>
+		<media:thumbnail url="http://www.earth-touch.com/i/podcast/LOM_IPOD.jpg" />
+		<media:keywords>wildlife, Earth-Touch, Earth-Touch.com, reality,
+			animals, HD, high-definition, high, definition, video, nature,
+			environment, earth</media:keywords>
+		<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">
+			TV &amp; Film</media:category>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self"
+			href="http://feeds.feedburner.com/moremi_podcast_ipod"
+			type="application/rss+xml" />
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub"
+			href="http://pubsubhubbub.appspot.com" />
+		<item>
+			<title>Lions of Moremi, 06 2009</title>
+			<itunes:author>Earth-Touch</itunes:author>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/nYvlZ5FG1Mc/</link>
+			<description>This week's Lions of Moremi podcast showcases the
+				Xakanaxa pride well fed, content and lazy.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM0609/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/nYvlZ5FG1Mc"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>This week's Lions of Moremi podcast showcases the
+				Xakanaxa pride well fed, content and lazy.</itunes:subtitle>
+			<itunes:summary>This week's Lions of Moremi podcast showcases the
+				Xakanaxa pride well fed, content and lazy.</itunes:summary>
+			<pubDate>Wed, 05 Aug 2009 15:52:28 +0200</pubDate>
+			<category>Podcast</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
+			<itunes:duration>07:22</itunes:duration>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=1a9d1ba2-81bf-11de-889e-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ePxmO4XsGik/PCLOM0609_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=1a9d1ba2-81bf-11de-889e-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ePxmO4XsGik/PCLOM0609_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM0609/video/PCLOM0609_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
+			<title>Lions of Moremi, 29 2009</title>
+			<itunes:author>Earth-Touch</itunes:author>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/1NkJ_czXR5I/</link>
+			<description>An intense battle unfolds in the Moremi Game Reserve
+				between the Xakanaxa pride and a large herd of buffalo.&lt;br
+				/&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM2909/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/1NkJ_czXR5I"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>An intense battle unfolds in the Moremi Game
+				Reserve between the Xakanaxa pride and a large herd of
+				buffalo.</itunes:subtitle>
+			<itunes:summary>An intense battle unfolds in the Moremi Game
+				Reserve between the Xakanaxa pride and a large herd of
+				buffalo.</itunes:summary>
+			<pubDate>Wed, 29 Jul 2009 15:14:21 +0200</pubDate>
+			<category>Podcast</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
+			<itunes:duration>10:32</itunes:duration>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=57069934-7c32-11de-b7f1-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/quunrVdohdQ/PCLOM2909_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=57069934-7c32-11de-b7f1-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/quunrVdohdQ/PCLOM2909_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM2909/video/PCLOM2909_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Lions of Moremi, 22-23 2009</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/z5_DhiJglX4/</link>
-			<description>Our premium Lions of Moremi podcast for this week catalogues a day in the life of the felines as they interact with a transient buffalo herd in Botswana's Okavango Delta.&lt;br /&gt;
-&lt;br /&gt;
-We track the behaviour of the predators and their prey from early morning as the buffalo wake, to the lions' stealthy tracking of the herd and the climax as they bring down a buffalo calf, only to have their hard-won prize stolen.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM222309/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/z5_DhiJglX4" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>Our premium Lions of Moremi podcast for this week catalogues a day in the life of the felines as they interact with a transient buffalo herd in Botswana's Okavango Delta.
-
-We track the behaviour of the predators and their prey from early morning as the </itunes:subtitle>
-			<itunes:summary>Our premium Lions of Moremi podcast for this week catalogues a day in the life of the felines as they interact with a transient buffalo herd in Botswana's Okavango Delta.
-
-We track the behaviour of the predators and their prey from early morning as the buffalo wake, to the lions' stealthy tracking of the herd and the climax as they bring down a buffalo calf, only to have their hard-won prize stolen.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/z5_DhiJglX4/</link>
+			<description>Our premium Lions of Moremi podcast for this week
+				catalogues a day in the life of the felines as they interact with a
+				transient buffalo herd in Botswana's Okavango Delta.&lt;br /&gt;
+				&lt;br /&gt; We track the behaviour of the predators and their prey
+				from early morning as the buffalo wake, to the lions' stealthy
+				tracking of the herd and the climax as they bring down a buffalo
+				calf, only to have their hard-won prize stolen.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM222309/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/z5_DhiJglX4"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>Our premium Lions of Moremi podcast for this week
+				catalogues a day in the life of the felines as they interact with a
+				transient buffalo herd in Botswana's Okavango Delta. We track the
+				behaviour of the predators and their prey from early morning as
+				the</itunes:subtitle>
+			<itunes:summary>Our premium Lions of Moremi podcast for this week
+				catalogues a day in the life of the felines as they interact with a
+				transient buffalo herd in Botswana's Okavango Delta. We track the
+				behaviour of the predators and their prey from early morning as the
+				buffalo wake, to the lions' stealthy tracking of the herd and the
+				climax as they bring down a buffalo calf, only to have their
+				hard-won prize stolen.</itunes:summary>
 			<pubDate>Thu, 18 Jun 2009 13:53:37 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>07:49</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=6d2c634a-5beb-11de-ba0a-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/v8QUnYF9GCA/PCLOM222309_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=6d2c634a-5beb-11de-ba0a-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/v8QUnYF9GCA/PCLOM222309_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM222309/video/PCLOM222309_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=6d2c634a-5beb-11de-ba0a-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/v8QUnYF9GCA/PCLOM222309_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=6d2c634a-5beb-11de-ba0a-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/v8QUnYF9GCA/PCLOM222309_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM222309/video/PCLOM222309_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Lions of Moremi, 18-19 2009</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/NhBrXxG1Yxg/</link>
-			<description>Lions of Moremi podcast 18-19 filmed by Brad Bestelink in Botswana&amp;rsquo;s Okavango Delta features:&lt;br /&gt;
-&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp; Mating lions frustrating an elephant herd as the animals try to cross a grassy floodplain&lt;br /&gt;
-&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp; Scent marking and sniffing as the paths of two lion prides overlap&lt;br /&gt;
-&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp; A pride closing in on a buffalo herd&lt;br /&gt;
-&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp; Lion cubs&amp;rsquo; curiosity aroused as they play with a pangolin&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM181909/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/NhBrXxG1Yxg" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>Lions of Moremi podcast 18-19 filmed by Brad Bestelink in Botswana’s Okavango Delta features:
-• Mating lions frustrating an elephant herd as the animals try to cross a grassy floodplain
-• Scent marking and sniffing as the paths of two lion prides </itunes:subtitle>
-			<itunes:summary>Lions of Moremi podcast 18-19 filmed by Brad Bestelink in Botswana’s Okavango Delta features:
-• Mating lions frustrating an elephant herd as the animals try to cross a grassy floodplain
-• Scent marking and sniffing as the paths of two lion prides overlap
-• A pride closing in on a buffalo herd
-• Lion cubs’ curiosity aroused as they play with a pangolin</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/NhBrXxG1Yxg/</link>
+			<description>Lions of Moremi podcast 18-19 filmed by Brad Bestelink
+				in Botswana&amp;rsquo;s Okavango Delta features:&lt;br /&gt;
+				&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp; Mating lions frustrating
+				an elephant herd as the animals try to cross a grassy
+				floodplain&lt;br /&gt; &amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+				Scent marking and sniffing as the paths of two lion prides
+				overlap&lt;br /&gt; &amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp; A
+				pride closing in on a buffalo herd&lt;br /&gt;
+				&amp;bull;&amp;nbsp;&amp;nbsp;&amp;nbsp; Lion cubs&amp;rsquo;
+				curiosity aroused as they play with a pangolin&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM181909/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/NhBrXxG1Yxg"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>Lions of Moremi podcast 18-19 filmed by Brad
+				Bestelink in Botswana&#226;&#8364;&#8482;s Okavango Delta features:
+				&#226;&#8364;&#162; Mating lions frustrating an elephant herd as
+				the animals try to cross a grassy floodplain &#226;&#8364;&#162;
+				Scent marking and sniffing as the paths of two lion
+				prides</itunes:subtitle>
+			<itunes:summary>Lions of Moremi podcast 18-19 filmed by Brad
+				Bestelink in Botswana&#226;&#8364;&#8482;s Okavango Delta features:
+				&#226;&#8364;&#162; Mating lions frustrating an elephant herd as
+				the animals try to cross a grassy floodplain &#226;&#8364;&#162;
+				Scent marking and sniffing as the paths of two lion prides overlap
+				&#226;&#8364;&#162; A pride closing in on a buffalo herd
+				&#226;&#8364;&#162; Lion cubs&#226;&#8364;&#8482; curiosity aroused
+				as they play with a pangolin</itunes:summary>
 			<pubDate>Tue, 19 May 2009 17:05:56 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>09:43</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=12016008-95cc-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZRzlso_n06M/PCLOM181909_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=12016008-95cc-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZRzlso_n06M/PCLOM181909_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM181909/video/PCLOM181909_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=12016008-95cc-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZRzlso_n06M/PCLOM181909_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=12016008-95cc-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZRzlso_n06M/PCLOM181909_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM181909/video/PCLOM181909_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Lions of Moremi, 16-17 2009</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/AlcIV0Yls0A/</link>
-			<description>Cameraman Brad Bestelink orchestrates this week's podcast from the Moremi Game Reserve in Botswana as he follows the resident lion pride as they, in turn, track a buffalo herd. &lt;br /&gt;
-&lt;br /&gt;
-The action comes to head when the lions bring down an injured female buffalo, but the herd is quick to respond to the animal's bellows of distress, thundering back to rescue her.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM161709/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/AlcIV0Yls0A" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>Cameraman Brad Bestelink orchestrates this week's podcast from the Moremi Game Reserve in Botswana as he follows the resident lion pride as they, in turn, track a buffalo herd. 
-
-The action comes to head when the lions bring down an injured female buffa</itunes:subtitle>
-			<itunes:summary>Cameraman Brad Bestelink orchestrates this week's podcast from the Moremi Game Reserve in Botswana as he follows the resident lion pride as they, in turn, track a buffalo herd. 
-
-The action comes to head when the lions bring down an injured female buffalo, but the herd is quick to respond to the animal's bellows of distress, thundering back to rescue her.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/AlcIV0Yls0A/</link>
+			<description>Cameraman Brad Bestelink orchestrates this week's
+				podcast from the Moremi Game Reserve in Botswana as he follows the
+				resident lion pride as they, in turn, track a buffalo herd. &lt;br
+				/&gt; &lt;br /&gt; The action comes to head when the lions bring
+				down an injured female buffalo, but the herd is quick to respond to
+				the animal's bellows of distress, thundering back to rescue
+				her.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM161709/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/AlcIV0Yls0A"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>Cameraman Brad Bestelink orchestrates this week's
+				podcast from the Moremi Game Reserve in Botswana as he follows the
+				resident lion pride as they, in turn, track a buffalo herd. The
+				action comes to head when the lions bring down an injured female
+				buffa</itunes:subtitle>
+			<itunes:summary>Cameraman Brad Bestelink orchestrates this week's
+				podcast from the Moremi Game Reserve in Botswana as he follows the
+				resident lion pride as they, in turn, track a buffalo herd. The
+				action comes to head when the lions bring down an injured female
+				buffalo, but the herd is quick to respond to the animal's bellows
+				of distress, thundering back to rescue her.</itunes:summary>
 			<pubDate>Wed, 06 May 2009 15:38:21 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>07:45</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=adaecf68-8b86-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/lCpHbztzTzM/PCLOM161709_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=adaecf68-8b86-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/lCpHbztzTzM/PCLOM161709_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM161709/video/PCLOM161709_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=adaecf68-8b86-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/lCpHbztzTzM/PCLOM161709_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=adaecf68-8b86-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/lCpHbztzTzM/PCLOM161709_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM161709/video/PCLOM161709_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Lions of Moremi, 14-15 2009</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/mBiDbjVV1CY/</link>
-			<description>In this week's Lions of Moremi podcast Graham Springer treats us to a leopard feeding on an impala kill in Botswana's Moremi Game Reserve.&lt;br /&gt;
-&lt;br /&gt;
-Next Graham enables us to appreciate the majesty of the king of the beasts &amp;ndash; a male lion &amp;ndash; as it rests apart from the main pride in the Moremi Game Reserve of Botswana.&lt;br /&gt;
-&lt;br /&gt;
-Lastly cameraman Brad Bestelink tracks the lion pride as the animals move off in their constant search for food in Botswana's Okavango Delta region.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM141509/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/mBiDbjVV1CY" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>In this week's Lions of Moremi podcast Graham Springer treats us to a leopard feeding on an impala kill in Botswana's Moremi Game Reserve.
-
-Next Graham enables us to appreciate the majesty of the king of the beasts – a male lion – as it rests apart </itunes:subtitle>
-			<itunes:summary>In this week's Lions of Moremi podcast Graham Springer treats us to a leopard feeding on an impala kill in Botswana's Moremi Game Reserve.
-
-Next Graham enables us to appreciate the majesty of the king of the beasts – a male lion – as it rests apart from the main pride in the Moremi Game Reserve of Botswana.
-
-Lastly cameraman Brad Bestelink tracks the lion pride as the animals move off in their constant search for food in Botswana's Okavango Delta region.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/mBiDbjVV1CY/</link>
+			<description>In this week's Lions of Moremi podcast Graham Springer
+				treats us to a leopard feeding on an impala kill in Botswana's
+				Moremi Game Reserve.&lt;br /&gt; &lt;br /&gt; Next Graham enables
+				us to appreciate the majesty of the king of the beasts &amp;ndash;
+				a male lion &amp;ndash; as it rests apart from the main pride in
+				the Moremi Game Reserve of Botswana.&lt;br /&gt; &lt;br /&gt;
+				Lastly cameraman Brad Bestelink tracks the lion pride as the
+				animals move off in their constant search for food in Botswana's
+				Okavango Delta region.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM141509/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/mBiDbjVV1CY"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>In this week's Lions of Moremi podcast Graham
+				Springer treats us to a leopard feeding on an impala kill in
+				Botswana's Moremi Game Reserve. Next Graham enables us to
+				appreciate the majesty of the king of the beasts
+				&#226;&#8364;&#8220; a male lion &#226;&#8364;&#8220; as it rests
+				apart</itunes:subtitle>
+			<itunes:summary>In this week's Lions of Moremi podcast Graham
+				Springer treats us to a leopard feeding on an impala kill in
+				Botswana's Moremi Game Reserve. Next Graham enables us to
+				appreciate the majesty of the king of the beasts
+				&#226;&#8364;&#8220; a male lion &#226;&#8364;&#8220; as it rests
+				apart from the main pride in the Moremi Game Reserve of Botswana.
+				Lastly cameraman Brad Bestelink tracks the lion pride as the
+				animals move off in their constant search for food in Botswana's
+				Okavango Delta region.</itunes:summary>
 			<pubDate>Wed, 22 Apr 2009 14:21:51 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>08:09</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=d50d68e2-807a-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZcqYImCE9og/PCLOM141509_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=d50d68e2-807a-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZcqYImCE9og/PCLOM141509_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM141509/video/PCLOM141509_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=d50d68e2-807a-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZcqYImCE9og/PCLOM141509_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=d50d68e2-807a-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ZcqYImCE9og/PCLOM141509_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM141509/video/PCLOM141509_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Lions of Moremi, 12-13 2009</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/dlEQltbb_dA/</link>
-			<description>In this week's Lions of Moremi podcast from the Moremi Game Reserve, Graham Springer first bring a pride of lions at a water crossing. In this clip the lionesses tackle the water crossing and once they had all crossed, their demeanour changed, signalling that they may have picked up a scent and were no longer in a playful mode but rearing themselves for a kill.&lt;br /&gt;
-&lt;br /&gt;
-We then join the pride as they continue moving southeast in search of the scent they had picked up and eventually they came across a small herd of buffalo. The lionesses set themselves up around an old buffalo bull but gave a half-hearted chase, mainly because there were no males to assist them, and immediately, they realised that it was a worthless attempt.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM121309/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/dlEQltbb_dA" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>In this week's Lions of Moremi podcast from the Moremi Game Reserve, Graham Springer first bring a pride of lions at a water crossing. In this clip the lionesses tackle the water crossing and once they had all crossed, their demeanour changed, signalling </itunes:subtitle>
-			<itunes:summary>In this week's Lions of Moremi podcast from the Moremi Game Reserve, Graham Springer first bring a pride of lions at a water crossing. In this clip the lionesses tackle the water crossing and once they had all crossed, their demeanour changed, signalling that they may have picked up a scent and were no longer in a playful mode but rearing themselves for a kill.
-
-We then join the pride as they continue moving southeast in search of the scent they had picked up and eventually they came across a small herd of buffalo. The lionesses set themselves up around an old buffalo bull but gave a half-hearted chase, mainly because there were no males to assist them, and immediately, they realised that it was a worthless attempt.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/dlEQltbb_dA/</link>
+			<description>In this week's Lions of Moremi podcast from the Moremi
+				Game Reserve, Graham Springer first bring a pride of lions at a
+				water crossing. In this clip the lionesses tackle the water
+				crossing and once they had all crossed, their demeanour changed,
+				signalling that they may have picked up a scent and were no longer
+				in a playful mode but rearing themselves for a kill.&lt;br /&gt;
+				&lt;br /&gt; We then join the pride as they continue moving
+				southeast in search of the scent they had picked up and eventually
+				they came across a small herd of buffalo. The lionesses set
+				themselves up around an old buffalo bull but gave a half-hearted
+				chase, mainly because there were no males to assist them, and
+				immediately, they realised that it was a worthless attempt.&lt;br
+				/&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM121309/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/dlEQltbb_dA"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>In this week's Lions of Moremi podcast from the
+				Moremi Game Reserve, Graham Springer first bring a pride of lions
+				at a water crossing. In this clip the lionesses tackle the water
+				crossing and once they had all crossed, their demeanour changed,
+				signalling</itunes:subtitle>
+			<itunes:summary>In this week's Lions of Moremi podcast from the
+				Moremi Game Reserve, Graham Springer first bring a pride of lions
+				at a water crossing. In this clip the lionesses tackle the water
+				crossing and once they had all crossed, their demeanour changed,
+				signalling that they may have picked up a scent and were no longer
+				in a playful mode but rearing themselves for a kill. We then join
+				the pride as they continue moving southeast in search of the scent
+				they had picked up and eventually they came across a small herd of
+				buffalo. The lionesses set themselves up around an old buffalo bull
+				but gave a half-hearted chase, mainly because there were no males
+				to assist them, and immediately, they realised that it was a
+				worthless attempt.</itunes:summary>
 			<pubDate>Tue, 31 Mar 2009 16:14:12 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>08:04</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=7bd3aa44-6f35-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/4S9VG0woZf8/PCLOM121309_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=7bd3aa44-6f35-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/4S9VG0woZf8/PCLOM121309_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM121309/video/PCLOM121309_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=7bd3aa44-6f35-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/4S9VG0woZf8/PCLOM121309_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=7bd3aa44-6f35-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/4S9VG0woZf8/PCLOM121309_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM121309/video/PCLOM121309_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Lions of Moremi, 10-11 2009</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/duZ10PeWBE4/</link>
-			<description>This week's Lions of Moremi podcast commences with the wild dogs of Moremi approaching water with ducks, geese, a giraffe and even cameraman, Brad Bestelink, making guest appearances.&lt;br /&gt;
-&lt;br /&gt;
-In our next offering, Brad Bestelink showcases a pride of lions on the hunt, and some zebras that stumbled upon these feline predators.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM101109/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/duZ10PeWBE4" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>This week's Lions of Moremi podcast commences with the wild dogs of Moremi approaching water with ducks, geese, a giraffe and even cameraman, Brad Bestelink, making guest appearances.
-
-In our next offering, Brad Bestelink showcases a pride of lions on t</itunes:subtitle>
-			<itunes:summary>This week's Lions of Moremi podcast commences with the wild dogs of Moremi approaching water with ducks, geese, a giraffe and even cameraman, Brad Bestelink, making guest appearances.
-
-In our next offering, Brad Bestelink showcases a pride of lions on the hunt, and some zebras that stumbled upon these feline predators.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/duZ10PeWBE4/</link>
+			<description>This week's Lions of Moremi podcast commences with the
+				wild dogs of Moremi approaching water with ducks, geese, a giraffe
+				and even cameraman, Brad Bestelink, making guest appearances.&lt;br
+				/&gt; &lt;br /&gt; In our next offering, Brad Bestelink showcases a
+				pride of lions on the hunt, and some zebras that stumbled upon
+				these feline predators.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM101109/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/duZ10PeWBE4"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>This week's Lions of Moremi podcast commences with
+				the wild dogs of Moremi approaching water with ducks, geese, a
+				giraffe and even cameraman, Brad Bestelink, making guest
+				appearances. In our next offering, Brad Bestelink showcases a pride
+				of lions on t</itunes:subtitle>
+			<itunes:summary>This week's Lions of Moremi podcast commences with
+				the wild dogs of Moremi approaching water with ducks, geese, a
+				giraffe and even cameraman, Brad Bestelink, making guest
+				appearances. In our next offering, Brad Bestelink showcases a pride
+				of lions on the hunt, and some zebras that stumbled upon these
+				feline predators.</itunes:summary>
 			<pubDate>Tue, 17 Mar 2009 17:10:00 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>06:48</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=4f7bb238-638d-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/cb2QYKWS_gg/PCLOM101109_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=4f7bb238-638d-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/cb2QYKWS_gg/PCLOM101109_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM101109/video/PCLOM101109_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=4f7bb238-638d-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/cb2QYKWS_gg/PCLOM101109_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=4f7bb238-638d-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/cb2QYKWS_gg/PCLOM101109_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM101109/video/PCLOM101109_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Lions of Moremi, 01 2009</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/qiZ3wMM-h5w/</link>
-			<description>This week's Lions of Moremi podcast commences with the wild dogs of Moremi approaching water with ducks, geese, a giraffe and even cameraman, Brad Bestelink, making guest appearances.&lt;br /&gt;
-&lt;br /&gt;
-In our next offering, Brad Bestelink showcases a pride of lions on the hunt, and some zebras that stumbled upon these feline predators.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/LOM0109/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/qiZ3wMM-h5w" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>This week's Lions of Moremi podcast commences with the wild dogs of Moremi approaching water with ducks, geese, a giraffe and even cameraman, Brad Bestelink, making guest appearances.
-
-In our next offering, Brad Bestelink showcases a pride of lions on t</itunes:subtitle>
-			<itunes:summary>This week's Lions of Moremi podcast commences with the wild dogs of Moremi approaching water with ducks, geese, a giraffe and even cameraman, Brad Bestelink, making guest appearances.
-
-In our next offering, Brad Bestelink showcases a pride of lions on the hunt, and some zebras that stumbled upon these feline predators.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/qiZ3wMM-h5w/</link>
+			<description>This week's Lions of Moremi podcast commences with the
+				wild dogs of Moremi approaching water with ducks, geese, a giraffe
+				and even cameraman, Brad Bestelink, making guest appearances.&lt;br
+				/&gt; &lt;br /&gt; In our next offering, Brad Bestelink showcases a
+				pride of lions on the hunt, and some zebras that stumbled upon
+				these feline predators.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/LOM0109/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/qiZ3wMM-h5w"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>This week's Lions of Moremi podcast commences with
+				the wild dogs of Moremi approaching water with ducks, geese, a
+				giraffe and even cameraman, Brad Bestelink, making guest
+				appearances. In our next offering, Brad Bestelink showcases a pride
+				of lions on t</itunes:subtitle>
+			<itunes:summary>This week's Lions of Moremi podcast commences with
+				the wild dogs of Moremi approaching water with ducks, geese, a
+				giraffe and even cameraman, Brad Bestelink, making guest
+				appearances. In our next offering, Brad Bestelink showcases a pride
+				of lions on the hunt, and some zebras that stumbled upon these
+				feline predators.</itunes:summary>
 			<pubDate>Fri, 27 Feb 2009 15:52:00 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>08:01</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=2394e748-5627-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/-Y_QTNrXeJ8/LOM0109_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=2394e748-5627-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/-Y_QTNrXeJ8/LOM0109_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/LOM0109/video/LOM0109_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=2394e748-5627-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/-Y_QTNrXeJ8/LOM0109_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=2394e748-5627-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/-Y_QTNrXeJ8/LOM0109_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/LOM0109/video/LOM0109_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Podcast 4 - Lions of Moremi</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/84jernbvbyM/</link>
-			<description>From the Moremi Game Reserve, Botswana, this week, Brad Bestelink brings us footage of the Xakanaxa lion pride feeding on a recent elephant kill. The lions have begun to prey on young elephants largely as a result of the buffalo herds having moved out of the area. This has caused the desperate lions to begin actively hunting elephants, an uncommon and very interesting behavioural development.&lt;br /&gt;
-&lt;br /&gt;
-We then experience the lions lying under dark swollen rain clouds building over Moremi ahead of a welcome thunderstorm. &lt;br /&gt;
-&lt;br /&gt;
-And finally, Graham Springer brings us the pride resting against the backdrop of a beautiful Botswana sunset.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM04/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/84jernbvbyM" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>From the Moremi Game Reserve, Botswana, this week, Brad Bestelink brings us footage of the Xakanaxa lion pride feeding on a recent elephant kill. The lions have begun to prey on young elephants largely as a result of the buffalo herds having moved out of </itunes:subtitle>
-			<itunes:summary>From the Moremi Game Reserve, Botswana, this week, Brad Bestelink brings us footage of the Xakanaxa lion pride feeding on a recent elephant kill. The lions have begun to prey on young elephants largely as a result of the buffalo herds having moved out of the area. This has caused the desperate lions to begin actively hunting elephants, an uncommon and very interesting behavioural development.
-
-We then experience the lions lying under dark swollen rain clouds building over Moremi ahead of a welcome thunderstorm. 
-
-And finally, Graham Springer brings us the pride resting against the backdrop of a beautiful Botswana sunset.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/84jernbvbyM/</link>
+			<description>From the Moremi Game Reserve, Botswana, this week,
+				Brad Bestelink brings us footage of the Xakanaxa lion pride feeding
+				on a recent elephant kill. The lions have begun to prey on young
+				elephants largely as a result of the buffalo herds having moved out
+				of the area. This has caused the desperate lions to begin actively
+				hunting elephants, an uncommon and very interesting behavioural
+				development.&lt;br /&gt; &lt;br /&gt; We then experience the lions
+				lying under dark swollen rain clouds building over Moremi ahead of
+				a welcome thunderstorm. &lt;br /&gt; &lt;br /&gt; And finally,
+				Graham Springer brings us the pride resting against the backdrop of
+				a beautiful Botswana sunset.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM04/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/84jernbvbyM"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>From the Moremi Game Reserve, Botswana, this week,
+				Brad Bestelink brings us footage of the Xakanaxa lion pride feeding
+				on a recent elephant kill. The lions have begun to prey on young
+				elephants largely as a result of the buffalo herds having moved out
+				of</itunes:subtitle>
+			<itunes:summary>From the Moremi Game Reserve, Botswana, this week,
+				Brad Bestelink brings us footage of the Xakanaxa lion pride feeding
+				on a recent elephant kill. The lions have begun to prey on young
+				elephants largely as a result of the buffalo herds having moved out
+				of the area. This has caused the desperate lions to begin actively
+				hunting elephants, an uncommon and very interesting behavioural
+				development. We then experience the lions lying under dark swollen
+				rain clouds building over Moremi ahead of a welcome thunderstorm.
+				And finally, Graham Springer brings us the pride resting against
+				the backdrop of a beautiful Botswana sunset.</itunes:summary>
 			<pubDate>Tue, 20 Jan 2009 17:30:00 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>07:17</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=462196d8-7a32-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/y5yBLz5aP4A/PCLOM04_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=462196d8-7a32-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/y5yBLz5aP4A/PCLOM04_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM04/video/PCLOM04_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=462196d8-7a32-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/y5yBLz5aP4A/PCLOM04_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=462196d8-7a32-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/y5yBLz5aP4A/PCLOM04_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM04/video/PCLOM04_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Podcast 3 - Lions of Moremi</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/zz80MR4lbeY/</link>
-			<description>In our penultimate podcast for 2008, Brad Bestelink first brings us amazing footage of a cheetah mother and her cub feeding together.&lt;br /&gt;
-&lt;br /&gt;
-This is followed by stunning footage of a dominant male lion at sunrise.&lt;br /&gt;
-&lt;br /&gt;
-Lastly we hear the yelp of jackals harassing a leopard that's invaded their territory.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM03/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/zz80MR4lbeY" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>In our penultimate podcast for 2008, Brad Bestelink first brings us amazing footage of a cheetah mother and her cub feeding together.
-
-This is followed by stunning footage of a dominant male lion at sunrise.
-
-Lastly we hear the yelp of jackals harassi</itunes:subtitle>
-			<itunes:summary>In our penultimate podcast for 2008, Brad Bestelink first brings us amazing footage of a cheetah mother and her cub feeding together.
-
-This is followed by stunning footage of a dominant male lion at sunrise.
-
-Lastly we hear the yelp of jackals harassing a leopard that's invaded their territory.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/zz80MR4lbeY/</link>
+			<description>In our penultimate podcast for 2008, Brad Bestelink
+				first brings us amazing footage of a cheetah mother and her cub
+				feeding together.&lt;br /&gt; &lt;br /&gt; This is followed by
+				stunning footage of a dominant male lion at sunrise.&lt;br /&gt;
+				&lt;br /&gt; Lastly we hear the yelp of jackals harassing a leopard
+				that's invaded their territory.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM03/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/zz80MR4lbeY"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>In our penultimate podcast for 2008, Brad
+				Bestelink first brings us amazing footage of a cheetah mother and
+				her cub feeding together. This is followed by stunning footage of a
+				dominant male lion at sunrise. Lastly we hear the yelp of jackals
+				harassi</itunes:subtitle>
+			<itunes:summary>In our penultimate podcast for 2008, Brad Bestelink
+				first brings us amazing footage of a cheetah mother and her cub
+				feeding together. This is followed by stunning footage of a
+				dominant male lion at sunrise. Lastly we hear the yelp of jackals
+				harassing a leopard that's invaded their
+				territory.</itunes:summary>
 			<pubDate>Wed, 12 Nov 2008 17:33:00 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>09:17</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=fe5347ac-7a31-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/3rDqUy44-V0/PCLOM03_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=fe5347ac-7a31-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/3rDqUy44-V0/PCLOM03_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM03/video/PCLOM03_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=fe5347ac-7a31-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/3rDqUy44-V0/PCLOM03_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=fe5347ac-7a31-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/3rDqUy44-V0/PCLOM03_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM03/video/PCLOM03_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Podcast 2 - Lions of Moremi</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/OsIvlRzZsyc/</link>
-			<description>This week's Lions of Moremi podcast, as usual, brings us stunning visuals of the big cats from the Moremi Game Reserve in Botswana.&lt;br /&gt;
-&lt;br /&gt;
-We start off with a male lion roaring at sunrise in search of its pride, brought to us by Boris von Schoenebeck.&lt;br /&gt;
-&lt;br /&gt;
-To follow, Brad Bestelink captured exciting footage of a female cheetah killing an impala, and in the same clip we also see a dikkop with a twitching eye.&lt;br /&gt;
-&lt;br /&gt;
-Lastly, we end off the week's podcast with a male lion, also roaring, but this time under a full moon, this one also brought to us by Brad.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM02/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/OsIvlRzZsyc" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>This week's Lions of Moremi podcast, as usual, brings us stunning visuals of the big cats from the Moremi Game Reserve in Botswana.
-
-We start off with a male lion roaring at sunrise in search of its pride, brought to us by Boris von Schoenebeck.
-
-To f</itunes:subtitle>
-			<itunes:summary>This week's Lions of Moremi podcast, as usual, brings us stunning visuals of the big cats from the Moremi Game Reserve in Botswana.
-
-We start off with a male lion roaring at sunrise in search of its pride, brought to us by Boris von Schoenebeck.
-
-To follow, Brad Bestelink captured exciting footage of a female cheetah killing an impala, and in the same clip we also see a dikkop with a twitching eye.
-
-Lastly, we end off the week's podcast with a male lion, also roaring, but this time under a full moon, this one also brought to us by Brad.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/OsIvlRzZsyc/</link>
+			<description>This week's Lions of Moremi podcast, as usual, brings
+				us stunning visuals of the big cats from the Moremi Game Reserve in
+				Botswana.&lt;br /&gt; &lt;br /&gt; We start off with a male lion
+				roaring at sunrise in search of its pride, brought to us by Boris
+				von Schoenebeck.&lt;br /&gt; &lt;br /&gt; To follow, Brad Bestelink
+				captured exciting footage of a female cheetah killing an impala,
+				and in the same clip we also see a dikkop with a twitching
+				eye.&lt;br /&gt; &lt;br /&gt; Lastly, we end off the week's podcast
+				with a male lion, also roaring, but this time under a full moon,
+				this one also brought to us by Brad.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM02/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/OsIvlRzZsyc"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>This week's Lions of Moremi podcast, as usual,
+				brings us stunning visuals of the big cats from the Moremi Game
+				Reserve in Botswana. We start off with a male lion roaring at
+				sunrise in search of its pride, brought to us by Boris von
+				Schoenebeck. To f</itunes:subtitle>
+			<itunes:summary>This week's Lions of Moremi podcast, as usual,
+				brings us stunning visuals of the big cats from the Moremi Game
+				Reserve in Botswana. We start off with a male lion roaring at
+				sunrise in search of its pride, brought to us by Boris von
+				Schoenebeck. To follow, Brad Bestelink captured exciting footage of
+				a female cheetah killing an impala, and in the same clip we also
+				see a dikkop with a twitching eye. Lastly, we end off the week's
+				podcast with a male lion, also roaring, but this time under a full
+				moon, this one also brought to us by Brad.</itunes:summary>
 			<pubDate>Mon, 27 Oct 2008 20:06:00 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>09:48</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=a4f885d2-7a31-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/SCaATcyxTBA/PCLOM02_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=a4f885d2-7a31-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/SCaATcyxTBA/PCLOM02_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM02/video/PCLOM02_IPOD_voice.m4v</feedburner:origEnclosureLink></item><item>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=a4f885d2-7a31-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/SCaATcyxTBA/PCLOM02_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=a4f885d2-7a31-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/SCaATcyxTBA/PCLOM02_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM02/video/PCLOM02_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<item>
 			<title>Podcast 1 - Lions of Moremi</title>
 			<itunes:author>Earth-Touch</itunes:author>
-			<link>http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/drr7rKmoGeQ/</link>
-			<description>In the first story on this week's Lions of Moremi podcast, we see a female cheetah kill a pregnant female impala.&lt;br /&gt;
-&lt;br /&gt;
-The second story shows a confrontation between the Xakanaxa and Badumatau lion prides, followed by a mating session between the dominant Xakanaxa male and a Badumatau female.&lt;br /&gt;
-&lt;br /&gt;
-A few days later the pride finds a cool spot near water, where they relax after a recent big feed. A group of curious helmeted guineafowl pays them a visit.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM01/storythumb.jpg"&gt;&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/drr7rKmoGeQ" height="1" width="1"/&gt;</description>			
-			<itunes:subtitle>In the first story on this week's Lions of Moremi podcast, we see a female cheetah kill a pregnant female impala.
-
-The second story shows a confrontation between the Xakanaxa and Badumatau lion prides, followed by a mating session between the dominant X</itunes:subtitle>
-			<itunes:summary>In the first story on this week's Lions of Moremi podcast, we see a female cheetah kill a pregnant female impala.
-
-The second story shows a confrontation between the Xakanaxa and Badumatau lion prides, followed by a mating session between the dominant Xakanaxa male and a Badumatau female.
-
-A few days later the pride finds a cool spot near water, where they relax after a recent big feed. A group of curious helmeted guineafowl pays them a visit.</itunes:summary>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/drr7rKmoGeQ/</link>
+			<description>In the first story on this week's Lions of Moremi
+				podcast, we see a female cheetah kill a pregnant female
+				impala.&lt;br /&gt; &lt;br /&gt; The second story shows a
+				confrontation between the Xakanaxa and Badumatau lion prides,
+				followed by a mating session between the dominant Xakanaxa male and
+				a Badumatau female.&lt;br /&gt; &lt;br /&gt; A few days later the
+				pride finds a cool spot near water, where they relax after a recent
+				big feed. A group of curious helmeted guineafowl pays them a
+				visit.&lt;br /&gt;&lt;img
+				src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM01/storythumb.jpg"&gt;&lt;img
+				src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/drr7rKmoGeQ"
+				height="1" width="1"/&gt;</description>
+			<itunes:subtitle>In the first story on this week's Lions of Moremi
+				podcast, we see a female cheetah kill a pregnant female impala. The
+				second story shows a confrontation between the Xakanaxa and
+				Badumatau lion prides, followed by a mating session between the
+				dominant X</itunes:subtitle>
+			<itunes:summary>In the first story on this week's Lions of Moremi
+				podcast, we see a female cheetah kill a pregnant female impala. The
+				second story shows a confrontation between the Xakanaxa and
+				Badumatau lion prides, followed by a mating session between the
+				dominant Xakanaxa male and a Badumatau female. A few days later the
+				pride finds a cool spot near water, where they relax after a recent
+				big feed. A group of curious helmeted guineafowl pays them a
+				visit.</itunes:summary>
 			<pubDate>Fri, 17 Oct 2008 14:43:00 +0200</pubDate>
 			<category>Podcast</category>
-      		<itunes:explicit>clean</itunes:explicit>
-			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth, planet</itunes:keywords>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
 			<itunes:duration>09:48</itunes:duration>
-			<guid isPermaLink="false">http://www.earth-touch.com/?hguid=e57b7b7e-7a30-102c-b2eb-00304858a4c8</guid>			
-			
-		<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/JV-uSsR_rhk/PCLOM01_IPOD_voice.m4v" type="video/quicktime" /><feedburner:origLink>http://www.earth-touch.com/?hguid=e57b7b7e-7a30-102c-b2eb-00304858a4c8</feedburner:origLink><enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/JV-uSsR_rhk/PCLOM01_IPOD_voice.m4v" length="0" type="video/quicktime" /><feedburner:origEnclosureLink>http://moremicast.earth-touch.com/images/upload/stories/PCLOM01/video/PCLOM01_IPOD_voice.m4v</feedburner:origEnclosureLink></item><media:credit role="author">Earth-Touch.com</media:credit><media:rating>nonadult</media:rating><media:description type="plain">The Moremi lions channel show features all the best Earth-Touch footage from the Moremi Game Reserve in Botswana, Southern Africa all in one show. This is a great way to get a bite size package of the wildlife happenings Earth-Touch has seen in Botswana. </media:description></channel></rss>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=e57b7b7e-7a30-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/JV-uSsR_rhk/PCLOM01_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=e57b7b7e-7a30-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/JV-uSsR_rhk/PCLOM01_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/PCLOM01/video/PCLOM01_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+		<media:credit role="author">Earth-Touch.com</media:credit>
+		<media:rating>nonadult</media:rating>
+		<media:description type="plain">The Moremi lions channel show
+			features all the best Earth-Touch footage from the Moremi Game
+			Reserve in Botswana, Southern Africa all in one show. This is a
+			great way to get a bite size package of the wildlife happenings
+			Earth-Touch has seen in Botswana.</media:description>
+	</channel>
+</rss>

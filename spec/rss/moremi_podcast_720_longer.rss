@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+	version="2.0">
+	<channel>
+		<title>Moremi Lions Channel, HD</title>
+		<item>
+			<title>Lions of Moremi, 06 2009</title>
+			<description>
+				This week's Lions of Moremi podcast showcases the Xakanaxa pride well fed, content and lazy.&lt;br /&gt; &lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM0609/storythumb.jpg"&gt; &lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_720/~4/nYvlZ5FG1Mc" height="1" width="1"/&gt;
+			</description>
+			<pubDate>Wed, 05 Aug 2009 15:52:28 +0200</pubDate>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/yXpHxX-iwVw/PCLOM0609_QT720_voice.mov" type="video/quicktime" />
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/yXpHxX-iwVw/PCLOM0609_QT720_voice.mov" length="0" type="video/quicktime" />
+		</item>
+		<item>
+			<title>Lions of Moremi, 29 2009</title>
+			<description>
+				An intense battle unfolds in the Moremi Game Reserve between the Xakanaxa pride and a large herd of buffalo.&lt;br /&gt; &lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM2909/storythumb.jpg"&gt; &lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_720/~4/1NkJ_czXR5I" height="1" width="1"/&gt;
+			</description>
+			<pubDate>Wed, 29 Jul 2009 15:14:21 +0200</pubDate>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/MEtCsu9NMPs/PCLOM2909_QT720_voice.mov" type="video/quicktime" />
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/MEtCsu9NMPs/PCLOM2909_QT720_voice.mov" length="0" type="video/quicktime" />
+		</item>
+		<item>
+			<title>Lions of Moremi, 22-23 2009</title>
+			<description>
+				Our premium Lions of Moremi podcast for this week catalogues a day in the life of the felines as they interact with a transient buffalo herd in Botswana's Okavango Delta.&lt;br /&gt; &lt;br /&gt; We track the behaviour of the predators and their prey from early morning as the buffalo wake, to the lions' stealthy tracking of the herd and the climax as they bring down a buffalo calf, only to have their hard-won prize stolen.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM222309/storythumb.jpg"&gt; &lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_720/~4/z5_DhiJglX4" height="1" width="1"/&gt;
+			</description>
+			<pubDate>Thu, 18 Jun 2009 13:53:37 +0200</pubDate>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/F6UjydlHtnI/PCLOM222309_QT720_voice.mov" type="video/quicktime" />
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/F6UjydlHtnI/PCLOM222309_QT720_voice.mov" length="0" type="video/quicktime" />
+		</item>
+	</channel>
+</rss>

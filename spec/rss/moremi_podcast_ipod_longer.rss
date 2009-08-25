@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+	version="2.0">
+	<channel>
+		<title>Moremi Lions Channel, iPod</title>
+		<item>
+			<title>Lions of Moremi, 06 2009</title>
+			<description>
+				This week's Lions of Moremi podcast showcases the Xakanaxa pride well fed, content and lazy.&lt;br /&gt; &lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM0609/storythumb.jpg"&gt; &lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/nYvlZ5FG1Mc" height="1" width="1"/&gt;
+			</description>
+			<pubDate>Wed, 05 Aug 2009 15:52:28 +0200</pubDate>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ePxmO4XsGik/PCLOM0609_IPOD_voice.m4v" type="video/quicktime" />
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/ePxmO4XsGik/PCLOM0609_IPOD_voice.m4v" length="0" type="video/quicktime" />
+		</item>
+		<item>
+			<title>Lions of Moremi, 29 2009</title>
+			<description>
+				An intense battle unfolds in the Moremi Game Reserve between the Xakanaxa pride and a large herd of buffalo.&lt;br /&gt;&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM2909/storythumb.jpg"&gt; &lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/1NkJ_czXR5I" height="1" width="1"/&gt;
+			</description>
+			<pubDate>Wed, 29 Jul 2009 15:14:21 +0200</pubDate>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/quunrVdohdQ/PCLOM2909_IPOD_voice.m4v" type="video/quicktime" />
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/quunrVdohdQ/PCLOM2909_IPOD_voice.m4v" length="0" type="video/quicktime" />
+		</item>
+		<item>
+			<title>Podcast 1 - Lions of Moremi</title>
+			<description>
+				In the first story on this week's Lions of Moremi podcast, we see a female cheetah kill a pregnant female impala.&lt;br /&gt; &lt;br /&gt; The second story shows a confrontation between the Xakanaxa and Badumatau lion prides, followed by a mating session between the dominant Xakanaxa male and a Badumatau female.&lt;br /&gt; &lt;br /&gt; A few days later the pride finds a cool spot near water, where they relax after a recent big feed. A group of curious helmeted guineafowl pays them a visit.&lt;br /&gt; &lt;img src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM01/storythumb.jpg"&gt; &lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/drr7rKmoGeQ" height="1" width="1"/&gt;
+			</description>
+			<pubDate>Fri, 17 Oct 2008 14:43:00 +0200</pubDate>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/JV-uSsR_rhk/PCLOM01_IPOD_voice.m4v" type="video/quicktime" />
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/JV-uSsR_rhk/PCLOM01_IPOD_voice.m4v" length="0" type="video/quicktime" />
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:media="http://search.yahoo.com/mrss/"
+xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+version="2.0">
+<channel>
+<title>Moremi Lions Channel, HD</title>
+<itunes:author>Earth-Touch.com</itunes:author>
+<link>http://www.earth-touch.com/</link>
+<description>The Moremi lions channel show features all the best
+Earth-Touch footage from the Moremi Game Reserve in Botswana,
+Southern Africa all in one show. This is a great way to get a bite
+size package of the wildlife happenings Earth-Touch has seen in
+Botswana. These shows are free to all.</description>
+<itunes:subtitle>The Moremi lions channel show features all the
+best Earth-Touch footage from the Moremi Game Reserve in Botswana,
+Southern Africa all in one show. This is a great way to get a bite
+size package of the wildlife happenings Earth-Touch has seen in
+Botswana.</itunes:subtitle>
+<itunes:summary>The Moremi lions channel show features all the best
+Earth-Touch footage from the Moremi Game Reserve in Botswana,
+Southern Africa all in one show. This is a great way to get a bite
+size package of the wildlife happenings Earth-Touch has seen in
+Botswana. These shows are free to all.</itunes:summary>
+<language>en</language>
+<copyright>Copyright Earth-Touch 2009</copyright>
+<itunes:owner>
+<itunes:name>Earth-Touch.com</itunes:name>
+<itunes:email>support@earth-touch.com</itunes:email>
+</itunes:owner>
+<itunes:image href="http://www.earth-touch.com/i/podcast/LOM_HD.jpg" />
+<category>Podcast</category>
+<itunes:explicit>no</itunes:explicit>
+<itunes:keywords>wildlife, Earth-Touch, Earth-Touch.com, reality,
+animals, HD, high-definition, high, definition, video, nature,
+environment, earth</itunes:keywords>
+<lastBuildDate>Mon, 24 Aug 2009 22:36:47 GMT</lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<generator>PHP</generator>
+<managingEditor>editor@earth-touch.com (Brian
+Palmer)</managingEditor>
+<webMaster>webmaster@earth-touch.com (Brian Palmer)</webMaster>
+<itunes:category text="TV &amp; Film" />
+<media:copyright>Copyright Earth-Touch 2009</media:copyright>
+<media:thumbnail url="http://www.earth-touch.com/i/podcast/LOM_HD.jpg" />
+<media:keywords>wildlife, Earth-Touch, Earth-Touch.com, reality,
+animals, HD, high-definition, high, definition, video, nature,
+environment, earth</media:keywords>
+<media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">
+TV &amp; Film</media:category>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self"
+href="http://feeds.feedburner.com/moremi_podcast_720"
+type="application/rss+xml" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub"
+href="http://pubsubhubbub.appspot.com" />
+<item>
+<title>Lions of Moremi, 06 2009</title>
+<itunes:author>Earth-Touch</itunes:author>
+<link>
+http://feedproxy.google.com/~r/moremi_podcast_720/~3/nYvlZ5FG1Mc/</link>
+<description>This week's Lions of Moremi podcast showcases the
+Xakanaxa pride well fed, content and lazy.&lt;br /&gt;&lt;img
+src="http://moremicast.earth-touch.com/images/upload/stories/PCLOM0609/storythumb.jpg"&gt;&lt;img
+src="http://feeds.feedburner.com/~r/moremi_podcast_720/~4/nYvlZ5FG1Mc"
+height="1" width="1"/&gt;</description>
+<itunes:subtitle>This week's Lions of Moremi podcast showcases the
+Xakanaxa pride well fed, content and lazy.</itunes:subtitle>
+<itunes:summary>This week's Lions of Moremi podcast showcases the
+Xakanaxa pride well fed, content and lazy.</itunes:summary>
+<pubDate>Wed, 05 Aug 2009 15:52:28 +0200</pubDate>
+<category>Podcast</category>
+<itunes:explicit>clean</itunes:explicit>
+<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+planet</itunes:keywords>
+<itunes:duration>07:22</itunes:duration>
+<guid isPermaLink="false">
+http://www.earth-touch.com/?hguid=1a9d1ba2-81bf-11de-889e-00304858a4c8</guid>
+<media:content url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/yXpHxX-iwVw/PCLOM0609_QT720_voice.mov"
+type="video/quicktime" />
+<feedburner:origLink>
+http://www.earth-touch.com/?hguid=1a9d1ba2-81bf-11de-889e-00304858a4c8</feedburner:origLink>
+<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_720/~5/yXpHxX-iwVw/PCLOM0609_QT720_voice.mov"
+length="0" type="video/quicktime" />
+<feedburner:origEnclosureLink>
+http://moremicast.earth-touch.com/images/upload/stories/PCLOM0609/video/PCLOM0609_QT720_voice.mov</feedburner:origEnclosureLink>
+</item>
+<media:credit role="author">Earth-Touch.com</media:credit>
+<media:rating>nonadult</media:rating>
+<media:description type="plain">The Moremi lions channel show
+features all the best Earth-Touch footage from the Moremi Game
+Reserve in Botswana, Southern Africa all in one show. This is a
+great way to get a bite size package of the wildlife happenings
+Earth-Touch has seen in Botswana.</media:description>
+</channel>
+</rss>
