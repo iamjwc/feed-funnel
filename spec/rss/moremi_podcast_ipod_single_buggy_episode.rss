@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
+	version="2.0">
+	<channel>
+		<title>Moremi Lions Channel, iPod</title>
+		<item>
+			<title>Lions of Moremi, 01 2009</title>
+			<itunes:author>Earth-Touch</itunes:author>
+			<link>
+				http://feedproxy.google.com/~r/moremi_podcast_ipod/~3/qiZ3wMM-h5w/</link>
+			<description>This week's Lions of Moremi podcast commences with the
+				wild dogs of Moremi approaching water with ducks, geese, a giraffe
+				and even cameraman, Brad Bestelink, making guest appearances.&lt;br /&gt; &lt;br /&gt; In our next offering, Brad Bestelink showcases a
+				pride of lions on the hunt, and some zebras that stumbled upon
+				these feline predators.&lt;br /&gt;
+				&lt;img src="http://moremicast.earth-touch.com/images/upload/stories/LOM0109/storythumb.jpg"&gt;
+				&lt;img src="http://feeds.feedburner.com/~r/moremi_podcast_ipod/~4/qiZ3wMM-h5w" height="1" width="1"/&gt;
+			</description>
+			<itunes:subtitle>This week's Lions of Moremi podcast commences with
+				the wild dogs of Moremi approaching water with ducks, geese, a
+				giraffe and even cameraman, Brad Bestelink, making guest
+				appearances. In our next offering, Brad Bestelink showcases a pride
+				of lions on t</itunes:subtitle>
+			<itunes:summary>This week's Lions of Moremi podcast commences with
+				the wild dogs of Moremi approaching water with ducks, geese, a
+				giraffe and even cameraman, Brad Bestelink, making guest
+				appearances. In our next offering, Brad Bestelink showcases a pride
+				of lions on the hunt, and some zebras that stumbled upon these
+				feline predators.</itunes:summary>
+			<pubDate>Fri, 27 Feb 2009 15:52:00 +0200</pubDate>
+			<category>Podcast</category>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:keywords>wildlife, nature, animals, earth-touch.com, earth,
+				planet</itunes:keywords>
+			<itunes:duration>08:01</itunes:duration>
+			<guid isPermaLink="false">
+				http://www.earth-touch.com/?hguid=2394e748-5627-102c-b2eb-00304858a4c8</guid>
+			<media:content url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/-Y_QTNrXeJ8/LOM0109_IPOD_voice.m4v"
+				type="video/quicktime" />
+			<feedburner:origLink>
+				http://www.earth-touch.com/?hguid=2394e748-5627-102c-b2eb-00304858a4c8</feedburner:origLink>
+			<enclosure url="http://feedproxy.google.com/~r/moremi_podcast_ipod/~5/-Y_QTNrXeJ8/LOM0109_IPOD_voice.m4v"
+				length="0" type="video/quicktime" />
+			<feedburner:origEnclosureLink>
+				http://moremicast.earth-touch.com/images/upload/stories/LOM0109/video/LOM0109_IPOD_voice.m4v</feedburner:origEnclosureLink>
+		</item>
+	</channel>
+</rss>

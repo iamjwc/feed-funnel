@@ -1,5 +1,21 @@
 require 'spec/spec_helper'
 
+def strip_html(s)
+  s.gsub(/&gt;/, ">").gsub(/&lt;/, "<").gsub(/<[^>]*>/, "").gsub(/\W+/, " ")
+end
+
+def count_media_urls(rss)
+  (Hpricot::XML(rss.to_s) / :"media:content").size
+end
+
+def count_media_urls_in(item)
+  (item / :"media:content").size
+end
+
+def count_items(rss)
+  (Hpricot::XML(rss.to_s) / :item).size
+end
+
 describe "With simple feeds" do
   before do
     @master_feed    = FeedFunnel::Feed.new(File.read("spec/rss/super_simple_1.rss"))
@@ -59,22 +75,6 @@ describe "With simple feeds" do
   end
 end
 
-def strip_html(s)
-  s.gsub(/&gt;/, ">").gsub(/&lt;/, "<").gsub(/<[^>]*>/, "").gsub(/\W+/, " ")
-end
-
-def count_media_urls(rss)
-  (Hpricot::XML(rss.to_s) / :"media:content").size
-end
-
-def count_media_urls_in(item)
-  (item / :"media:content").size
-end
-
-def count_items(rss)
-  (Hpricot::XML(rss.to_s) / :item).size
-end
-
 describe "With short moremi feeds" do
   before do
     @master_rss = File.read("spec/rss/moremi_podcast_720_short.rss")
@@ -125,8 +125,6 @@ describe "With longer moremi feeds" do
       @funneled_on_description = FeedFunnel::Funnel.new(@master_feed,
                                                         :matchers => [FeedFunnel::LevenshteinMatcher.new {|i| strip_html((i.h % :description).inner_text) }],
                                                         :feeds    => [@other_feed])
-      require 'ruby-debug'
-      #debugger
       @funneled_on_description = @funneled_on_description.GO!.to_s
 
       @funneled_on_title = FeedFunnel::Funnel.new(@master_feed,
@@ -194,6 +192,101 @@ describe "With rev3 feeds" do
 
     it "should be able match items up by description" do
       count_items(@funneled_on_description).should == count_items(@master_rss)
+    end
+  end
+end
+
+describe "With single buggy moremi episode" do
+  before do
+    @master_rss = File.read("spec/rss/moremi_podcast_720_single_buggy_episode.rss")
+    @other_rss  = File.read("spec/rss/moremi_podcast_ipod_single_buggy_episode.rss")
+    @master_feed = FeedFunnel::Feed.new(@master_rss)
+    @other_feed  = FeedFunnel::Feed.new(@other_rss)
+  end
+
+  describe FeedFunnel::Funnel do
+    describe "with title" do
+      before do
+        @funneled_on_title = FeedFunnel::Funnel.new(@master_feed,
+                                                          :matchers => [FeedFunnel::DirectMatcher.new {|i| (i.h % :title).inner_text }],
+                                                          :feeds    => [@other_feed]).GO!.to_s
+        @h_on_title = Hpricot::XML(@funneled_on_title)
+
+      end
+
+      it "shouldn't lose any media urls" do
+        media_urls_sum      = count_media_urls(@funneled_on_title)
+        orig_media_urls_sum = count_media_urls(@master_rss) + count_media_urls(@other_rss)
+
+        media_urls_sum.should == orig_media_urls_sum
+      end
+
+      it "should have 1 episode with 2 media urls" do
+        count_items(@funneled_on_title).should == 1
+        count_media_urls(@funneled_on_title).should == 2
+      end
+    end
+
+    describe "with description" do
+      before do
+        @funneled_on_description = FeedFunnel::Funnel.new(@master_feed,
+                                                          :matchers => [FeedFunnel::LevenshteinMatcher.new {|i| strip_html((i.h % :description).inner_text) }],
+                                                          :feeds    => [@other_feed]).GO!.to_s
+        @h_on_description = Hpricot::XML(@funneled_on_description)
+      end
+
+      it "should have 1 episode with 2 media urls" do
+        count_items(@funneled_on_description).should == 1
+        count_media_urls(@funneled_on_description).should == 2
+      end
+    end
+  end
+end
+
+describe "With full moremi feeds" do
+  before do
+    @master_rss = File.read("spec/rss/moremi_podcast_720.rss")
+    @other_rss  = File.read("spec/rss/moremi_podcast_ipod.rss")
+    @master_feed = FeedFunnel::Feed.new(@master_rss)
+    @other_feed  = FeedFunnel::Feed.new(@other_rss)
+  end
+
+  describe FeedFunnel::Funnel do
+    describe "with title" do
+      before do
+        @funneled_on_title = FeedFunnel::Funnel.new(@master_feed,
+                                                          :matchers => [FeedFunnel::DirectMatcher.new {|i| (i.h % :title).inner_text }],
+                                                          :feeds    => [@other_feed]).GO!.to_s
+        @h_on_title = Hpricot::XML(@funneled_on_title)
+      end
+
+      it "shouldn't lose any media urls" do
+        media_urls_sum      = count_media_urls(@funneled_on_title)
+        orig_media_urls_sum = count_media_urls(@master_rss) + count_media_urls(@other_rss)
+
+        media_urls_sum.should == orig_media_urls_sum
+      end
+
+      it "should pull both urls into one item by title" do
+        (@h_on_title / :item).each do |i|
+          count_media_urls_in(i).should == 2
+        end
+      end
+    end
+
+    describe "with description" do
+      before do
+        @funneled_on_description = FeedFunnel::Funnel.new(@master_feed,
+                                                          :matchers => [FeedFunnel::LevenshteinMatcher.new {|i| strip_html((i.h % :description).inner_text) }],
+                                                          :feeds    => [@other_feed]).GO!.to_s
+        @h_on_description = Hpricot::XML(@funneled_on_description)
+      end
+
+      it "should pull both urls into one item by description" do
+        (@h_on_description / :item).each do |i|
+          count_media_urls_in(i).should == 2
+        end
+      end
     end
   end
 end

@@ -17,6 +17,7 @@ class FeedFunnel::Funnel
         similar_item = similar_items[item]
         item.add_media(similar_item.enclosure_values) if other_items.include?(similar_item)
 
+      #debugger
         other_items.delete(similar_item)
       end
       other_items.each {|item| @master_feed.items << item }
