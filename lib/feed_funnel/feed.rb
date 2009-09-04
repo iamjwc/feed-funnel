@@ -14,7 +14,7 @@ class FeedFunnel::Feed
   
   def add_title(new_title)
     self.h.search("channel/title").remove
-    self.h.at('channel').children << Hpricot.build { tag!("title", new_title) }
+    self.h.at('channel').children.unshift Hpricot.build { tag!("title", new_title) }
   end
 
   def add_funnel_namespace
@@ -26,7 +26,7 @@ class FeedFunnel::Feed
     # Ex: <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/alaskahdtv" type="application/rss+xml" />
     (feeds << self).each do |feed|
       if link = feed.h.at('atom:link[@rel=self]') || feed.h.at('atom10:link[@rel=self]')
-        self.h.at('channel').children << Hpricot.build { tag!("feedfunnel:origLink", link['href']) }
+        self.h.at('channel').children.unshift Hpricot.build { tag!("feedfunnel:origLink", link['href']) }
       end
     end
   end
