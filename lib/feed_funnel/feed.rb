@@ -14,7 +14,7 @@ class FeedFunnel::Feed
   
   def add_title(new_title)
     self.h.search("channel/title").remove
-    self.h.insert_before(Hpricot.build { tag!("title", new_title) }.children, h.at('item'))
+    self.h.at('channel').children << Hpricot.build { tag!("title", new_title) }
   end
 
   def add_funnel_namespace
