@@ -291,3 +291,40 @@ describe "With full moremi feeds" do
   end
 end
 
+describe "Manipulating the funneled feed" do
+  before do
+    @simple_funnel = FeedFunnel::Funnel.new(
+      FeedFunnel::Feed.new(File.read("spec/rss/super_simple_1.rss")),
+      :matchers => [FeedFunnel::DirectMatcher.new {|i| (i.h % :enclosure)[:url] }],
+      :feeds => [FeedFunnel::Feed.new(File.read("spec/rss/super_simple_2.rss"))],
+      :title => "my funneled feed")
+    @coop_funnel = FeedFunnel::Funnel.new(
+      FeedFunnel::Feed.new(File.read("spec/rss/rev3_coop_mp4.rss")),
+      :matchers => [FeedFunnel::DirectMatcher.new {|i| (i.h % :title).inner_text }],
+      :feeds    => [FeedFunnel::Feed.new(File.read("spec/rss/rev3_coop_flash_large.rss"))],
+      :title => "CO-OP")
+  end
+  
+  it "should mixin the title when it doesn't exist" do
+    @simple_funnel.GO!.to_s.should match(/<title>my funneled feed<\/title>/)
+  end
+
+  it "should mixin the title when it already exists" do
+    @coop_funnel.GO!.to_s.should match(/<title>CO-OP<\/title>/)
+  end
+  
+  it "should include the feedfunnel namespace" do
+    @simple_funnel.GO!.to_s.should match(/<rss [^>]*xmlns:feedfunnel="http:\/\/limecast.com\/feedfunnelrss"/)
+  end
+
+  it "should not include the feedfunnel'ed namespaced links if they don't exist" do
+    @simple_funnel.GO!.to_s.should_not match(/<feedfunnel:origLink>/)
+  end
+
+  it "should include the feedfunnel'ed namespaced links if they exist" do
+    feed = @coop_funnel.GO!.to_s
+    feed.should match(/<feedfunnel:origLink>http:\/\/revision3.com\/coop\/feed\/flash-large\/<\/feedfunnel:origLink>/)
+    feed.should match(/<feedfunnel:origLink>http:\/\/revision3.com\/coop\/feed\/mp4-hd30\/<\/feedfunnel:origLink>/)
+  end
+end
+

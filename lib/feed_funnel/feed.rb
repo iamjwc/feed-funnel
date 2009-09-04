@@ -11,6 +11,25 @@ class FeedFunnel::Feed
     @h = Hpricot::XML(rss)
     @items = (h / :item).map {|i| Item.new(i) }
   end
+  
+  def add_title(new_title)
+    self.h.search("channel/title").remove
+    self.h.insert_before(Hpricot.build { tag!("title", new_title) }.children, h.at('item'))
+  end
+
+  def add_funnel_namespace
+    self.h.at('rss').set_attribute 'xmlns:feedfunnel', "http://limecast.com/feedfunnelrss"
+  end
+
+  def add_funnel_origlinks(feeds)
+    # Ex: <atom:link rel="self" href="http://revision3.com/coop/feed/flash-large/" />
+    # Ex: <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/alaskahdtv" type="application/rss+xml" />
+    (feeds << self).each do |feed|
+      if link = feed.h.at('atom:link[@rel=self]') || feed.h.at('atom10:link[@rel=self]')
+        self.h.insert_before(Hpricot.build { tag!("feedfunnel:origLink", link['href']) }.children, h.at('item'))
+      end
+    end
+  end
 
   def to_s
     channel = (self.h % :channel)

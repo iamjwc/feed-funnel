@@ -5,6 +5,7 @@ class FeedFunnel::Funnel
     @master_feed = master_feed
     @matchers = opts[:matchers] || []
     @feeds = opts[:feeds] || []
+    @title = opts[:title]
   end
 
   def GO!
@@ -17,11 +18,14 @@ class FeedFunnel::Funnel
         similar_item = similar_items[item]
         item.add_media(similar_item.enclosure_values) if other_items.include?(similar_item)
 
-      #debugger
         other_items.delete(similar_item)
       end
       other_items.each {|item| @master_feed.items << item }
     end
+    
+    @master_feed.add_title(@title) if @title
+    @master_feed.add_funnel_namespace
+    @master_feed.add_funnel_origlinks(@feeds)
 
     @master_feed
   end
