@@ -18,15 +18,25 @@ class FeedFunnel::Feed
   end
 
   def add_funnel_namespace
-    self.h.at('rss').set_attribute 'xmlns:feedfunnel', "http://limecast.com/feedfunnelrss"
+    self.h.at('rss').set_attribute 'xmlns:combinificator', "http://combinificator.com/rss"
   end
 
   def add_funnel_origlinks(feeds)
-    # Ex: <atom:link rel="self" href="http://revision3.com/coop/feed/flash-large/" />
-    # Ex: <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/alaskahdtv" type="application/rss+xml" />
+    self.h.at('channel').children.unshift(Hpricot.build { tag!("combinificator:group") })
+    
+    sources = []
     (feeds << self).each do |feed|
       if link = feed.h.at('atom:link[@rel=self]') || feed.h.at('atom10:link[@rel=self]')
-        self.h.at('channel').children.unshift Hpricot.build { tag!("feedfunnel:origLink", link['href']) }
+        item = feed.h.at('item')
+
+        attrs = {}
+        attrs['url']       = link['href']
+        attrs['size']      = (item.at('enclosure')['length'] rescue nil) || (item.at('media:content')['fileSize'] rescue nil)
+        attrs['type']      = (item.at('enclosure')['type'] rescue nil) || (item.at('media:content')['type'] rescue nil)
+        attrs['duration']  = (item.at('enclosure')['duration'] rescue nil) || (item.at('media:content')['duration'] rescue nil) # NOTE: we could scrap for <itunes:duration> too, if you want
+        attrs['isPrimary'] = (feed == self ? 'true' : 'false')
+
+        self.h.at('combinificator:group').children.push(Hpricot.build { tag!("combinificator:source", attrs) })
       end
     end
   end

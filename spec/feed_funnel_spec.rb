@@ -314,17 +314,22 @@ describe "Manipulating the funneled feed" do
   end
   
   it "should include the feedfunnel namespace" do
-    @simple_funnel.GO!.to_s.should match(/<rss [^>]*xmlns:feedfunnel="http:\/\/limecast.com\/feedfunnelrss"/)
+    @simple_funnel.GO!.to_s.should match(/<rss [^>]*xmlns:combinificator="http:\/\/combinificator.com\/rss"/)
   end
 
   it "should not include the feedfunnel'ed namespaced links if they don't exist" do
-    @simple_funnel.GO!.to_s.should_not match(/<feedfunnel:origLink>/)
+    @simple_funnel.GO!.to_s.should match(/<combinificator:group><\/combinificator:group>/)
   end
 
-  it "should include the feedfunnel'ed namespaced links if they exist" do
+  it "should include the feedfunnel'ed original links with sample extension, size & duration if they exist" do
     feed = @coop_funnel.GO!.to_s
-    feed.should match(/<feedfunnel:origLink>http:\/\/revision3.com\/coop\/feed\/flash-large\/<\/feedfunnel:origLink>/)
-    feed.should match(/<feedfunnel:origLink>http:\/\/revision3.com\/coop\/feed\/mp4-hd30\/<\/feedfunnel:origLink>/)
+    expected  = %Q!<combinificator:group>!
+    expected += %Q!<combinificator:source size="269770468" isPrimary="false" url="http://revision3.com/coop/feed/flash-large/" type="video/x-flv" duration="1744"></combinificator:source>!
+    expected += %Q!<combinificator:source size="578074253" isPrimary="true" url="http://revision3.com/coop/feed/mp4-hd30/" type="video/mp4" duration="1744"></combinificator:source>!
+    expected += %Q!</combinificator:group>!
+    feed.should match(Regexp.new(expected))
+    # feed.should match(/<feedfunnel:origLink duration="" length="" type=""><\/feedfunnel:origLink>/)
+    # feed.should match(/<feedfunnel:origLink duration="1744" length="" type=""><\/feedfunnel:origLink>/)
   end
 end
 
