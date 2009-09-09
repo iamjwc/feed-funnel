@@ -328,8 +328,6 @@ describe "Manipulating the funneled feed" do
     expected += %Q!<combinificator:source size="578074253" isPrimary="true" url="http://revision3.com/coop/feed/mp4-hd30/" type="video/mp4" duration="1744"></combinificator:source>!
     expected += %Q!</combinificator:group>!
     feed.should match(Regexp.new(expected))
-    # feed.should match(/<feedfunnel:origLink duration="" length="" type=""><\/feedfunnel:origLink>/)
-    # feed.should match(/<feedfunnel:origLink duration="1744" length="" type=""><\/feedfunnel:origLink>/)
   end
 end
 
