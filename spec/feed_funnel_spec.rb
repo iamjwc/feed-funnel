@@ -324,9 +324,14 @@ describe "Manipulating the funneled feed" do
   it "should include the feedfunnel'ed original links with sample extension, size & duration if they exist" do
     feed = @coop_funnel.GO!.to_s
     expected  = %Q!<combinificator:group>!
-    expected += %Q!<combinificator:source size="269770468" isPrimary="false" url="http://revision3.com/coop/feed/flash-large/" type="video/x-flv" duration="1744"></combinificator:source>!
-    expected += %Q!<combinificator:source size="578074253" isPrimary="true" url="http://revision3.com/coop/feed/mp4-hd30/" type="video/mp4" duration="1744"></combinificator:source>!
+    expected += %Q!<combinificator:source isPrimary="false" url="http://revision3.com/coop/feed/flash-large/">!
+    expected += %Q!<combinificator:enclosure size="269770468" type="video/x-flv" url="http://www.podtrac.com/pts/redirect.flv/bitcast-a.bitgravity.com/revision3/flv/coop/0203/coop--0203--cribs01--large.fl8.flv" duration="1744"></combinificator:enclosure>!
+    expected += %Q!</combinificator:source>!
+    expected += %Q!<combinificator:source isPrimary="true" url="http://revision3.com/coop/feed/mp4-hd30/">!
+    expected += %Q!<combinificator:enclosure size="578074253" type="video/mp4" url="http://www.podtrac.com/pts/redirect.mp4/bitcast-a.bitgravity.com/revision3/web/coop/0203/coop--0203--cribs01--hd720p30.h264.mp4" duration="1744"></combinificator:enclosure>!
+    expected += %Q!</combinificator:source>!
     expected += %Q!</combinificator:group>!
+
     feed.should match(Regexp.new(expected))
   end
 end

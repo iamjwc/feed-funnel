@@ -29,17 +29,37 @@ class FeedFunnel::Feed
       if link = feed.h.at('atom:link[@rel=self]') || feed.h.at('atom10:link[@rel=self]')
         item = feed.h.at('item')
 
-        attrs = {}
-        attrs['url']       = link['href']
-        attrs['size']      = (item.at('enclosure')['length'] rescue nil) || (item.at('media:content')['fileSize'] rescue nil)
-        attrs['type']      = (item.at('enclosure')['type'] rescue nil) || (item.at('media:content')['type'] rescue nil)
-        attrs['duration']  = (item.at('enclosure')['duration'] rescue nil) || (item.at('media:content')['duration'] rescue nil) # NOTE: we could scrap for <itunes:duration> too, if you want
-        attrs['isPrimary'] = (feed == self ? 'true' : 'false')
+        source_attrs                = {}
+        source_attrs['url']         = link['href']
+        source_attrs['isPrimary']   = (feed == self ? 'true' : 'false')
 
-        self.h.at('combinificator:group').children.push(Hpricot.build { tag!("combinificator:source", attrs) })
+        enclosure_attrs             = {}
+        enclosure_attrs['size']     = (item.at('enclosure')['length'] rescue nil) || (item.at('media:content')['fileSize'] rescue nil)
+        enclosure_attrs['type']     = (item.at('enclosure')['type'] rescue nil) || (item.at('media:content')['type'] rescue nil)
+        enclosure_attrs['url']      = (item.at('enclosure')['url'] rescue nil) || (item.at('media:content')['url'] rescue nil)
+        enclosure_attrs['duration'] = (item.at('enclosure')['duration'] rescue nil) || (item.at('media:content')['duration'] rescue nil) # NOTE: we could scrap for <itunes:duration> too, if you want
+
+        source = Hpricot.build { 
+          tag!("combinificator:source", source_attrs) {
+            tag!("combinificator:enclosure", enclosure_attrs)
+          }
+        }
+
+        self.h.at('combinificator:group').children.push(source)
       end
     end
   end
+
+  # <combinificator:group>!
+  #   <combinificator:source url="http://revision3.com/coop/feed/flash-large/" isPrimary="false">!
+  #     <combinificator:enclosure url="http://www.podtrac.com/pts/redirect.flv/bitcast-a.bitgravity.com/revision3/flv/coop/0203/coop--0203--cribs01--large.fl8.flv" type="video/x-flv" size="269770468" duration="1744"/>!
+  #   </combinfinicator:source>!
+  #   <combinificator:source ur578074253l="http://revision3.com/coop/feed/mp4-hd30/" isPrimary="true">!
+  #     <combinificator:enclosure url="http://www.podtrac.com/pts/redirect.mp4/bitcast-a.bitgravity.com/revision3/web/coop/0203/coop--0203--cribs01--hd720p30.h264.mp4" type="video/mp4" size="578074253" duration="1744"/>!
+  #   </combinificator:source>!
+  # </combinificator:group>!
+
+
 
   def to_s
     channel = (self.h % :channel)
